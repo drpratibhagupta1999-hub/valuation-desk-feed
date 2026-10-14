@@ -1,4 +1,6 @@
 ticker,field,value,asof,source
+_META,feed_run_utc,2026-10-14T18:28:36Z,2026-10-14T18:28:36Z,publish_feed.py
+_META,tickers_ok,6,2026-10-14T18:28:36Z,publish_feed.py
 NVDA,name,NVIDIA Corporation,,Yahoo / SEC
 NVDA,sector,Technology,,Yahoo
 NVDA,industry,Semiconductors,,Yahoo
@@ -139,25 +141,27 @@ NVDA,g_earnings_yield_score,2,2026-01-25,workbook Thresholds ladder (1-5)
 NVDA,g_earnings_yield_grade,D,2026-01-25,A>=4.5 B>=3.75 C>=3 D>=2
 NVDA,quality_data_score,3.92,2026-01-25,evidence x2 + data checks x1 (judgment questions NOT included - workbook adds them)
 NVDA,quality_data_grade,B,2026-01-25,provisional until judgment scored
+NVDA,late_cycle_rule,Yes,2026-01-25,industry match -> 10-yr avg FCF margins (workbook j_LateCyc)
+NVDA,value_model_overrides,none,,overrides.csv
 NVDA,vm_low_rev_growth,0.075,2026-01-25,Value Model suggestion
-NVDA,vm_low_fcf_margin,0.350805,2026-01-25,Value Model suggestion
+NVDA,vm_low_fcf_margin,0.280644,2026-01-25,Value Model suggestion
 NVDA,vm_low_exit_pfcf,14,2026-01-25,Value Model suggestion
 NVDA,vm_low_share_change,0.005286,2026-01-25,Value Model suggestion
 NVDA,vm_low_rev_y10,624430732389.0425,2026-01-25,Value Model suggestion
-NVDA,vm_low_fair_value,50.295341,2026-01-25,"10y FCF x exit multiple, discounted at 9.5%, + net cash/share"
+NVDA,vm_low_fair_value,40.553277,2026-01-25,"10y FCF x exit multiple, discounted at 9.5%, + net cash/share"
 NVDA,vm_mid_rev_growth,0.1125,2026-01-25,Value Model suggestion
-NVDA,vm_mid_fcf_margin,0.360175,2026-01-25,Value Model suggestion
+NVDA,vm_mid_fcf_margin,0.350805,2026-01-25,Value Model suggestion
 NVDA,vm_mid_exit_pfcf,17,2026-01-25,Value Model suggestion
 NVDA,vm_mid_share_change,-0.004714,2026-01-25,Value Model suggestion
 NVDA,vm_mid_rev_y10,879832141770.223,2026-01-25,Value Model suggestion
-NVDA,vm_mid_fair_value,96.148423,2026-01-25,"10y FCF x exit multiple, discounted at 9.5%, + net cash/share"
+NVDA,vm_mid_fair_value,93.688238,2026-01-25,"10y FCF x exit multiple, discounted at 9.5%, + net cash/share"
 NVDA,vm_high_rev_growth,0.15,2026-01-25,Value Model suggestion
-NVDA,vm_high_fcf_margin,0.419203,2026-01-25,Value Model suggestion
+NVDA,vm_high_fcf_margin,0.360175,2026-01-25,Value Model suggestion
 NVDA,vm_high_exit_pfcf,20,2026-01-25,Value Model suggestion
 NVDA,vm_high_share_change,-0.009714,2026-01-25,Value Model suggestion
 NVDA,vm_high_rev_y10,1225682627187.4246,2026-01-25,Value Model suggestion
-NVDA,vm_high_fair_value,191.284453,2026-01-25,"10y FCF x exit multiple, discounted at 9.5%, + net cash/share"
-NVDA,price_vs_mid_fv,1.296346,2026-10-14,price / mid fair value - 1
+NVDA,vm_high_fair_value,164.572754,2026-01-25,"10y FCF x exit multiple, discounted at 9.5%, + net cash/share"
+NVDA,price_vs_mid_fv,1.356646,2026-10-14,price / mid fair value - 1
 NVDA,loss_maker_placeholder_margins,No,2026-01-25,Value Model
 NVDA,data_flags,,,desk_fetch
 MSFT,name,Microsoft Corporation,,Yahoo / SEC
@@ -300,6 +304,8 @@ MSFT,g_earnings_yield_score,2,2026-06-30,workbook Thresholds ladder (1-5)
 MSFT,g_earnings_yield_grade,D,2026-06-30,A>=4.5 B>=3.75 C>=3 D>=2
 MSFT,quality_data_score,4.32,2026-06-30,evidence x2 + data checks x1 (judgment questions NOT included - workbook adds them)
 MSFT,quality_data_grade,B,2026-06-30,provisional until judgment scored
+MSFT,late_cycle_rule,No,2026-06-30,industry match -> 10-yr avg FCF margins (workbook j_LateCyc)
+MSFT,value_model_overrides,none,,overrides.csv
 MSFT,vm_low_rev_growth,0.051002,2026-06-30,Value Model suggestion
 MSFT,vm_low_fcf_margin,0.201866,2026-06-30,Value Model suggestion
 MSFT,vm_low_exit_pfcf,14,2026-06-30,Value Model suggestion
@@ -461,25 +467,27 @@ MU,g_earnings_yield_score,4,2026-09-03,workbook Thresholds ladder (1-5)
 MU,g_earnings_yield_grade,B,2026-09-03,A>=4.5 B>=3.75 C>=3 D>=2
 MU,quality_data_score,4.11,2026-09-03,evidence x2 + data checks x1 (judgment questions NOT included - workbook adds them)
 MU,quality_data_grade,B,2026-09-03,provisional until judgment scored
+MU,late_cycle_rule,Yes,2026-09-03,industry match -> 10-yr avg FCF margins (workbook j_LateCyc)
+MU,value_model_overrides,none,,overrides.csv
 MU,vm_low_rev_growth,0.075,2026-09-03,Value Model suggestion
-MU,vm_low_fcf_margin,0.039952,2026-09-03,Value Model suggestion
+MU,vm_low_fcf_margin,0.031962,2026-09-03,Value Model suggestion
 MU,vm_low_exit_pfcf,14,2026-09-03,Value Model suggestion
 MU,vm_low_share_change,0.01035,2026-09-03,Value Model suggestion
 MU,vm_low_rev_y10,274504671701.59354,2026-09-03,Value Model suggestion
-MU,vm_low_fair_value,83.212121,2026-09-03,"10y FCF x exit multiple, discounted at 9.5%, + net cash/share"
+MU,vm_low_fair_value,73.331977,2026-09-03,"10y FCF x exit multiple, discounted at 9.5%, + net cash/share"
 MU,vm_mid_rev_growth,0.1125,2026-09-03,Value Model suggestion
-MU,vm_mid_fcf_margin,0.039952,2026-09-03,Value Model suggestion
+MU,vm_mid_fcf_margin,0.08859,2026-09-03,Value Model suggestion
 MU,vm_mid_exit_pfcf,17,2026-09-03,Value Model suggestion
 MU,vm_mid_share_change,0.00035,2026-09-03,Value Model suggestion
 MU,vm_mid_rev_y10,386781144331.42706,2026-09-03,Value Model suggestion
-MU,vm_mid_fair_value,127.173029,2026-09-03,"10y FCF x exit multiple, discounted at 9.5%, + net cash/share"
+MU,vm_mid_fair_value,240.830757,2026-09-03,"10y FCF x exit multiple, discounted at 9.5%, + net cash/share"
 MU,vm_high_rev_growth,0.15,2026-09-03,Value Model suggestion
-MU,vm_high_fcf_margin,0.04994,2026-09-03,Value Model suggestion
+MU,vm_high_fcf_margin,0.08859,2026-09-03,Value Model suggestion
 MU,vm_high_exit_pfcf,20,2026-09-03,Value Model suggestion
 MU,vm_high_share_change,-0.00465,2026-09-03,Value Model suggestion
 MU,vm_high_rev_y10,538819743703.46466,2026-09-03,Value Model suggestion
-MU,vm_high_fair_value,234.905473,2026-09-03,"10y FCF x exit multiple, discounted at 9.5%, + net cash/share"
-MU,price_vs_mid_fv,6.247331,2026-10-14,price / mid fair value - 1
+MU,vm_high_fair_value,390.534956,2026-09-03,"10y FCF x exit multiple, discounted at 9.5%, + net cash/share"
+MU,price_vs_mid_fv,2.827024,2026-10-14,price / mid fair value - 1
 MU,loss_maker_placeholder_margins,No,2026-09-03,Value Model
 MU,data_flags,,,desk_fetch
 NBIS,name,Nebius Group N.V.,,Yahoo / SEC
@@ -501,17 +509,17 @@ NBIS,fcf_5y_avg,-703450000.0,2025-12-31,SEC EDGAR companyfacts (XBRL)
 NBIS,fcf_10y_avg,-703450000.0,2025-12-31,SEC EDGAR companyfacts (XBRL)
 NBIS,net_income_5y_avg,107000000.0,2025-12-31,SEC EDGAR companyfacts (XBRL)
 NBIS,gross_margin_ttm,0.742602,2026-06-30,Yahoo Finance trailing 12 months (newer than SEC XBRL)
-NBIS,gross_margin_5y,-0.223751,2025-12-31,SEC EDGAR companyfacts (XBRL)
-NBIS,gross_margin_10y,-0.223751,2025-12-31,SEC EDGAR companyfacts (XBRL)
+NBIS,gross_margin_5y,-0.197825,2025-12-31,SEC EDGAR companyfacts (XBRL)
+NBIS,gross_margin_10y,-0.197825,2025-12-31,SEC EDGAR companyfacts (XBRL)
 NBIS,operating_margin_ttm,-0.504834,2026-06-30,Yahoo Finance trailing 12 months (newer than SEC XBRL)
-NBIS,operating_margin_5y,-11.594641,2025-12-31,SEC EDGAR companyfacts (XBRL)
-NBIS,operating_margin_10y,-11.594641,2025-12-31,SEC EDGAR companyfacts (XBRL)
+NBIS,operating_margin_5y,-1.0,2025-12-31,SEC EDGAR companyfacts (XBRL)
+NBIS,operating_margin_10y,-1.0,2025-12-31,SEC EDGAR companyfacts (XBRL)
 NBIS,net_margin_ttm,0.031289,2026-06-30,Yahoo Finance trailing 12 months (newer than SEC XBRL)
-NBIS,net_margin_5y,18.24949,2025-12-31,SEC EDGAR companyfacts (XBRL)
-NBIS,net_margin_10y,18.24949,2025-12-31,SEC EDGAR companyfacts (XBRL)
-NBIS,fcf_margin_ttm,-4.341967,2026-06-30,Yahoo Finance trailing 12 months (newer than SEC XBRL)
-NBIS,fcf_margin_5y,28.418292,2025-12-31,SEC EDGAR companyfacts (XBRL)
-NBIS,fcf_margin_10y,28.418292,2025-12-31,SEC EDGAR companyfacts (XBRL)
+NBIS,net_margin_5y,0.28893,2025-12-31,SEC EDGAR companyfacts (XBRL)
+NBIS,net_margin_10y,0.28893,2025-12-31,SEC EDGAR companyfacts (XBRL)
+NBIS,fcf_margin_ttm,-1.0,2026-06-30,Yahoo Finance trailing 12 months (newer than SEC XBRL)
+NBIS,fcf_margin_5y,0.0,2025-12-31,SEC EDGAR companyfacts (XBRL)
+NBIS,fcf_margin_10y,0.0,2025-12-31,SEC EDGAR companyfacts (XBRL)
 NBIS,revenue_cagr_3y,2.398282,2025-12-31,SEC EDGAR companyfacts (XBRL)
 NBIS,revenue_cagr_5y,,2025-12-31,SEC EDGAR companyfacts (XBRL)
 NBIS,revenue_cagr_10y,,2025-12-31,SEC EDGAR companyfacts (XBRL)
@@ -622,27 +630,30 @@ NBIS,g_earnings_yield_score,0.5,2025-12-31,workbook Thresholds ladder (1-5)
 NBIS,g_earnings_yield_grade,F,2025-12-31,A>=4.5 B>=3.75 C>=3 D>=2
 NBIS,quality_data_score,2.94,2025-12-31,evidence x2 + data checks x1 (judgment questions NOT included - workbook adds them)
 NBIS,quality_data_grade,D,2025-12-31,provisional until judgment scored
-NBIS,vm_low_rev_growth,0.075,2025-12-31,Value Model suggestion
-NBIS,vm_low_fcf_margin,0.05,2025-12-31,Value Model suggestion
-NBIS,vm_low_exit_pfcf,14,2025-12-31,Value Model suggestion
-NBIS,vm_low_share_change,0.01,2025-12-31,Value Model suggestion
-NBIS,vm_low_rev_y10,2792903869.8894,2025-12-31,Value Model suggestion
-NBIS,vm_low_fair_value,-5.293384,2025-12-31,"10y FCF x exit multiple, discounted at 9.5%, + net cash/share"
-NBIS,vm_mid_rev_growth,0.1125,2025-12-31,Value Model suggestion
-NBIS,vm_mid_fcf_margin,0.1,2025-12-31,Value Model suggestion
-NBIS,vm_mid_exit_pfcf,14,2025-12-31,Value Model suggestion
-NBIS,vm_mid_share_change,0,2025-12-31,Value Model suggestion
-NBIS,vm_mid_rev_y10,3935242879.86543,2025-12-31,Value Model suggestion
-NBIS,vm_mid_fair_value,0.25711,2025-12-31,"10y FCF x exit multiple, discounted at 9.5%, + net cash/share"
-NBIS,vm_high_rev_growth,0.15,2025-12-31,Value Model suggestion
-NBIS,vm_high_fcf_margin,0.15,2025-12-31,Value Model suggestion
-NBIS,vm_high_exit_pfcf,14,2025-12-31,Value Model suggestion
-NBIS,vm_high_share_change,-0.005,2025-12-31,Value Model suggestion
-NBIS,vm_high_rev_y10,5482135287.657784,2025-12-31,Value Model suggestion
-NBIS,vm_high_fair_value,10.045937,2025-12-31,"10y FCF x exit multiple, discounted at 9.5%, + net cash/share"
-NBIS,price_vs_mid_fv,713.402027,2026-10-14,price / mid fair value - 1
-NBIS,loss_maker_placeholder_margins,Yes,2025-12-31,Value Model
-NBIS,data_flags,"Foreign private issuer (files 20-F): no quarterly XBRL, so TTM may equal the last fiscal year or come from Yahoo. | History break: revenue fell >80% in FY2022 (restructuring / divestiture). Years before that belong to the former business and are dropped. | Only 4 usable fiscal years: 5/10-year averages are thin or n/a. | TTM figures from Yahoo (as of 2026-06-30); SEC XBRL TTM was older (2025-12-31). | Share count taken from Yahoo market cap ÷ price (SEC cover count looked stale or partial).",,desk_fetch
+NBIS,late_cycle_rule,No,2025-12-31,industry match -> 10-yr avg FCF margins (workbook j_LateCyc)
+NBIS,value_model_overrides,dil;fcfm;mult;rev0;rev10,,overrides.csv
+NBIS,margin_cap_note,"capped:FCF,FCF_TTM,GrossProfit,NetIncome,OperatingIncome",2025-12-31,yearly margins beyond +/-100% capped
+NBIS,vm_low_rev_growth,0.228228,2025-12-31,Value Model suggestion
+NBIS,vm_low_fcf_margin,0.08,2025-12-31,Value Model suggestion
+NBIS,vm_low_exit_pfcf,12.0,2025-12-31,Value Model suggestion
+NBIS,vm_low_share_change,0.06,2025-12-31,Value Model suggestion
+NBIS,vm_low_rev_y10,25000000000.000015,2025-12-31,Value Model suggestion
+NBIS,vm_low_fair_value,11.97139,2025-12-31,"10y FCF x exit multiple, discounted at 9.5%, + net cash/share"
+NBIS,vm_mid_rev_growth,0.316382,2025-12-31,Value Model suggestion
+NBIS,vm_mid_fcf_margin,0.15,2025-12-31,Value Model suggestion
+NBIS,vm_mid_exit_pfcf,16.0,2025-12-31,Value Model suggestion
+NBIS,vm_mid_share_change,0.04,2025-12-31,Value Model suggestion
+NBIS,vm_mid_rev_y10,50000000000.00002,2025-12-31,Value Model suggestion
+NBIS,vm_mid_fair_value,112.408236,2025-12-31,"10y FCF x exit multiple, discounted at 9.5%, + net cash/share"
+NBIS,vm_high_rev_growth,0.396077,2025-12-31,Value Model suggestion
+NBIS,vm_high_fcf_margin,0.22,2025-12-31,Value Model suggestion
+NBIS,vm_high_exit_pfcf,20.0,2025-12-31,Value Model suggestion
+NBIS,vm_high_share_change,0.025,2025-12-31,Value Model suggestion
+NBIS,vm_high_rev_y10,90000000000.00008,2025-12-31,Value Model suggestion
+NBIS,vm_high_fair_value,451.253986,2025-12-31,"10y FCF x exit multiple, discounted at 9.5%, + net cash/share"
+NBIS,price_vs_mid_fv,0.634044,2026-10-14,price / mid fair value - 1
+NBIS,loss_maker_placeholder_margins,No,2025-12-31,Value Model
+NBIS,data_flags,"Foreign private issuer (files 20-F): no quarterly XBRL, so TTM may equal the last fiscal year or come from Yahoo. | History break: revenue fell >80% in FY2022 (restructuring / divestiture). Years before that belong to the former business and are dropped. | Only 4 usable fiscal years: 5/10-year averages are thin or n/a. | TTM figures from Yahoo (as of 2026-06-30); SEC XBRL TTM was older (2025-12-31). | Share count taken from Yahoo market cap ÷ price (SEC cover count looked stale or partial). | Margin history capped at +/-100% for FCF,FCF_TTM,GrossProfit,NetIncome,OperatingIncome (tiny-revenue years made raw ratios absurd). | Value model uses manual overrides from overrides.csv: dil,fcfm,mult,rev0,rev10.",,desk_fetch
 AMD,name,"Advanced Micro Devices, Inc.",,Yahoo / SEC
 AMD,sector,Technology,,Yahoo
 AMD,industry,Semiconductors,,Yahoo
@@ -783,25 +794,27 @@ AMD,g_earnings_yield_score,1,2025-12-27,workbook Thresholds ladder (1-5)
 AMD,g_earnings_yield_grade,F,2025-12-27,A>=4.5 B>=3.75 C>=3 D>=2
 AMD,quality_data_score,4.4,2025-12-27,evidence x2 + data checks x1 (judgment questions NOT included - workbook adds them)
 AMD,quality_data_grade,B,2025-12-27,provisional until judgment scored
+AMD,late_cycle_rule,Yes,2025-12-27,industry match -> 10-yr avg FCF margins (workbook j_LateCyc)
+AMD,value_model_overrides,none,,overrides.csv
 AMD,vm_low_rev_growth,0.075,2025-12-27,Value Model suggestion
-AMD,vm_low_fcf_margin,0.074742,2025-12-27,Value Model suggestion
+AMD,vm_low_fcf_margin,0.059794,2025-12-27,Value Model suggestion
 AMD,vm_low_exit_pfcf,14,2025-12-27,Value Model suggestion
 AMD,vm_low_share_change,0.072711,2025-12-27,Value Model suggestion
 AMD,vm_low_rev_y10,85130908675.2134,2025-12-27,Value Model suggestion
-AMD,vm_low_fair_value,16.954037,2025-12-27,"10y FCF x exit multiple, discounted at 9.5%, + net cash/share"
+AMD,vm_low_fair_value,14.771334,2025-12-27,"10y FCF x exit multiple, discounted at 9.5%, + net cash/share"
 AMD,vm_mid_rev_growth,0.1125,2025-12-27,Value Model suggestion
-AMD,vm_mid_fcf_margin,0.133011,2025-12-27,Value Model suggestion
+AMD,vm_mid_fcf_margin,0.074742,2025-12-27,Value Model suggestion
 AMD,vm_mid_exit_pfcf,17,2025-12-27,Value Model suggestion
 AMD,vm_mid_share_change,0.062711,2025-12-27,Value Model suggestion
 AMD,vm_mid_rev_y10,119950710023.49759,2025-12-27,Value Model suggestion
-AMD,vm_mid_fair_value,42.532582,2025-12-27,"10y FCF x exit multiple, discounted at 9.5%, + net cash/share"
+AMD,vm_mid_fair_value,26.54632,2025-12-27,"10y FCF x exit multiple, discounted at 9.5%, + net cash/share"
 AMD,vm_high_rev_growth,0.15,2025-12-27,Value Model suggestion
-AMD,vm_high_fcf_margin,0.166263,2025-12-27,Value Model suggestion
+AMD,vm_high_fcf_margin,0.133011,2025-12-27,Value Model suggestion
 AMD,vm_high_exit_pfcf,20,2025-12-27,Value Model suggestion
 AMD,vm_high_share_change,0.057711,2025-12-27,Value Model suggestion
 AMD,vm_high_rev_y10,167101762273.41507,2025-12-27,Value Model suggestion
-AMD,vm_high_fair_value,84.41041,2025-12-27,"10y FCF x exit multiple, discounted at 9.5%, + net cash/share"
-AMD,price_vs_mid_fv,12.41583,2026-10-14,price / mid fair value - 1
+AMD,vm_high_fair_value,68.736433,2025-12-27,"10y FCF x exit multiple, discounted at 9.5%, + net cash/share"
+AMD,price_vs_mid_fv,20.494878,2026-10-14,price / mid fair value - 1
 AMD,loss_maker_placeholder_margins,No,2025-12-27,Value Model
 AMD,data_flags,,,desk_fetch
 AAPL,name,Apple Inc.,,Yahoo / SEC
@@ -944,6 +957,8 @@ AAPL,g_earnings_yield_score,2,2025-09-27,workbook Thresholds ladder (1-5)
 AAPL,g_earnings_yield_grade,D,2025-09-27,A>=4.5 B>=3.75 C>=3 D>=2
 AAPL,quality_data_score,4.18,2025-09-27,evidence x2 + data checks x1 (judgment questions NOT included - workbook adds them)
 AAPL,quality_data_grade,B,2025-09-27,provisional until judgment scored
+AAPL,late_cycle_rule,No,2025-09-27,industry match -> 10-yr avg FCF margins (workbook j_LateCyc)
+AAPL,value_model_overrides,none,,overrides.csv
 AAPL,vm_low_rev_growth,0.030371,2025-09-27,Value Model suggestion
 AAPL,vm_low_fcf_margin,0.25211,2025-09-27,Value Model suggestion
 AAPL,vm_low_exit_pfcf,14,2025-09-27,Value Model suggestion
