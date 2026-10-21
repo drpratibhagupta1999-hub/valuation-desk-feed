@@ -1,13 +1,13 @@
 ticker,field,value,asof,source
-_META,feed_run_utc,2026-10-20T06:20:36Z,2026-10-20T06:20:36Z,publish_feed.py
-_META,tickers_ok,12,2026-10-20T06:20:36Z,publish_feed.py
+_META,feed_run_utc,2026-10-21T06:21:06Z,2026-10-21T06:21:06Z,publish_feed.py
+_META,tickers_ok,12,2026-10-21T06:21:06Z,publish_feed.py
 NVDA,name,NVIDIA Corporation,,Yahoo / SEC
 NVDA,sector,Technology,,Yahoo
 NVDA,industry,Semiconductors,,Yahoo
 NVDA,currency,USD,,Yahoo
-NVDA,price_snapshot,217.09,2026-10-19,Yahoo Finance (delayed ~15 min)
+NVDA,price_snapshot,216.47,2026-10-20,Yahoo Finance (delayed ~15 min)
 NVDA,shares_out,24100000000,,SEC cover / Yahoo
-NVDA,market_cap,5231869000000.0,2026-10-19,price x shares
+NVDA,market_cap,5216927000000.0,2026-10-20,price x shares
 NVDA,last_fiscal_year_end,2026-01-25,2026-01-25,SEC EDGAR companyfacts (XBRL)
 NVDA,years_of_history,11,2026-01-25,SEC EDGAR companyfacts (XBRL)
 NVDA,revenue_ttm,302970000000,2026-07-26,SEC 10-Q roll-forward (last FY + YTD - prior YTD)
@@ -41,7 +41,7 @@ NVDA,cash_and_st_investments,71565000000,2026-07-26,SEC latest balance sheet
 NVDA,total_debt,33366000000,2026-07-26,SEC latest balance sheet
 NVDA,net_cash,38199000000,2026-07-26,SEC latest balance sheet
 NVDA,net_cash_per_share,1.585021,2026-07-26,net cash / shares
-NVDA,enterprise_value,5193670000000.0,2026-07-26,mcap + debt - cash
+NVDA,enterprise_value,5178728000000.0,2026-07-26,mcap + debt - cash
 NVDA,current_ratio,3.905264,2026-01-25,SEC EDGAR companyfacts (XBRL)
 NVDA,share_count_change_5y_total,-0.023347,2026-01-25,SEC EDGAR companyfacts (XBRL)
 NVDA,share_count_change_per_yr_5y,-0.004714,2026-01-25,SEC EDGAR companyfacts (XBRL)
@@ -49,18 +49,18 @@ NVDA,net_acquisitions_5y,2937000000,2026-01-25,SEC EDGAR companyfacts (XBRL)
 NVDA,dividends_paid_ttm,6776000000,2026-07-26,SEC 10-Q roll-forward (last FY + YTD - prior YTD)
 NVDA,dividends_paid_5y,3000000000,2026-01-25,SEC EDGAR companyfacts (XBRL)
 NVDA,buybacks_5y,93364000000,2026-01-25,SEC EDGAR companyfacts (XBRL)
-NVDA,dividend_yield,0.001295,2026-07-26,TTM dividends / mcap
-NVDA,pe_ttm,27.124995,2026-10-19,computed
-NVDA,pe_5y_avg_earnings,110.457613,2026-10-19,computed
-NVDA,pe_forward,15.449575,2026-10-19,computed
-NVDA,ps_ttm,17.268604,2026-10-19,computed
-NVDA,ev_sales,17.142522,2026-10-19,computed
-NVDA,pfcf_ttm,41.193873,2026-10-19,computed
-NVDA,pfcf_5y_avg,133.133213,2026-10-19,computed
+NVDA,dividend_yield,0.001299,2026-07-26,TTM dividends / mcap
+NVDA,pe_ttm,27.047527,2026-10-20,computed
+NVDA,pe_5y_avg_earnings,110.14215,2026-10-20,computed
+NVDA,pe_forward,15.385646,2026-10-20,computed
+NVDA,ps_ttm,17.219286,2026-10-20,computed
+NVDA,ev_sales,17.093204,2026-10-20,computed
+NVDA,pfcf_ttm,41.076225,2026-10-20,computed
+NVDA,pfcf_5y_avg,132.75299,2026-10-20,computed
 NVDA,piotroski_f,4,2026-01-25,"Piotroski 2000, 9/9 tests computable"
-NVDA,altman_z,68.065747,2026-01-25,Altman 1968 original weights
+NVDA,altman_z,67.884668,2026-01-25,Altman 1968 original weights
 NVDA,beneish_m,-1.15889,2026-01-25,Beneish 1999 8-var; 0 index(es) missing set to 1.0
-NVDA,p1_pe_5y,110.457613,2026-01-25,8 Pillars input (below 22.5)
+NVDA,p1_pe_5y,110.14215,2026-01-25,8 Pillars input (below 22.5)
 NVDA,p1_pe_5y_pass,FAIL,2026-01-25,8 Pillars
 NVDA,p2_roic_5y,0.840183,2026-01-25,8 Pillars input (above 0.09)
 NVDA,p2_roic_5y_pass,PASS,2026-01-25,8 Pillars
@@ -74,22 +74,22 @@ NVDA,p6_rev_growth_5y,17.169115,2026-01-25,8 Pillars input (above 0.0)
 NVDA,p6_rev_growth_5y_pass,PASS,2026-01-25,8 Pillars
 NVDA,p7_ltliab_over_fcf5,0.441422,2026-01-25,8 Pillars input (below 5)
 NVDA,p7_ltliab_over_fcf5_pass,PASS,2026-01-25,8 Pillars
-NVDA,p8_pfcf_5y,133.133213,2026-01-25,8 Pillars input (below 22.5)
+NVDA,p8_pfcf_5y,132.75299,2026-01-25,8 Pillars input (below 22.5)
 NVDA,p8_pfcf_5y_pass,FAIL,2026-01-25,8 Pillars
 NVDA,pillars_passed,6/8,2026-01-25,8 Pillars (computable)
 NVDA,eps_est_current_fy,9.31242,2027-01-31,Yahoo earningsTrend
 NVDA,eps_est_next_fy,15.9146,2027-01-31,Yahoo earningsTrend
 NVDA,eps_growth_current_fy,0.9523,2027-01-31,Yahoo earningsTrend
 NVDA,eps_growth_next_fy,0.709,2027-01-31,Yahoo earningsTrend
-NVDA,revenue_est_current_fy,411653409840,2027-01-31,Yahoo earningsTrend
-NVDA,revenue_est_next_fy,692206372650,2027-01-31,Yahoo earningsTrend
+NVDA,revenue_est_current_fy,411653417250,2027-01-31,Yahoo earningsTrend
+NVDA,revenue_est_next_fy,692206374410,2027-01-31,Yahoo earningsTrend
 NVDA,revenue_growth_current_fy,0.9064,2027-01-31,Yahoo earningsTrend
 NVDA,revenue_growth_next_fy,0.6815,2027-01-31,Yahoo earningsTrend
 NVDA,analyst_target_mean,328.71695,2027-01-31,Yahoo earningsTrend
 NVDA,analyst_count,59,2027-01-31,Yahoo earningsTrend
 NVDA,next_earnings_date,2026-11-17,,Yahoo calendar
 NVDA,ex_dividend_date,2026-09-10,,Yahoo calendar
-NVDA,institutional_pct,0.71405,2026-06-30,Yahoo Finance (13F filings via Yahoo)
+NVDA,institutional_pct,0.71402,2026-06-30,Yahoo Finance (13F filings via Yahoo)
 NVDA,insider_pct,0.04007,2026-06-30,Yahoo Finance (13F filings via Yahoo)
 NVDA,holder_1_name,Blackrock Inc.,2026-06-30,Yahoo Finance (13F filings via Yahoo)
 NVDA,holder_1_pct,0.0806,2026-06-30,Yahoo Finance (13F filings via Yahoo)
@@ -112,13 +112,13 @@ NVDA,holder_9_pct,0.0148,2026-06-30,Yahoo Finance (13F filings via Yahoo)
 NVDA,holder_10_name,Invesco Ltd.,2026-06-30,Yahoo Finance (13F filings via Yahoo)
 NVDA,holder_10_pct,0.0137,2026-06-30,Yahoo Finance (13F filings via Yahoo)
 NVDA,short_pct_float,0.0134,2026-09-30,Yahoo (FINRA)
-NVDA,px_hi52,239.240005,2026-10-19,Yahoo daily closes
-NVDA,px_lo52,165.169998,2026-10-19,Yahoo daily closes
-NVDA,px_ath,239.240005,2026-10-19,Yahoo daily closes
-NVDA,px_ma50,222.9392,2026-10-19,Yahoo daily closes
-NVDA,px_ma200,203.12395,2026-10-19,Yahoo daily closes
-NVDA,px_ret30,-0.023305,2026-10-19,Yahoo daily closes
-NVDA,px_cagr5,0.577507,2026-10-19,Yahoo daily closes
+NVDA,px_hi52,239.240005,2026-10-20,Yahoo daily closes
+NVDA,px_lo52,165.169998,2026-10-20,Yahoo daily closes
+NVDA,px_ath,239.240005,2026-10-20,Yahoo daily closes
+NVDA,px_ma50,222.9176,2026-10-20,Yahoo daily closes
+NVDA,px_ma200,203.26205,2026-10-20,Yahoo daily closes
+NVDA,px_ret30,-0.026094,2026-10-20,Yahoo daily closes
+NVDA,px_cagr5,0.575642,2026-10-20,Yahoo daily closes
 NVDA,g_cash_debt_score,5.0,2026-01-25,workbook Thresholds ladder (1-5)
 NVDA,g_cash_debt_grade,A,2026-01-25,A>=4.5 B>=3.75 C>=3 D>=2
 NVDA,g_revenue_margin_score,5.0,2026-01-25,workbook Thresholds ladder (1-5)
@@ -161,16 +161,16 @@ NVDA,vm_high_exit_pfcf,20,2026-01-25,Value Model suggestion
 NVDA,vm_high_share_change,-0.009714,2026-01-25,Value Model suggestion
 NVDA,vm_high_rev_y10,1225682627187.4246,2026-01-25,Value Model suggestion
 NVDA,vm_high_fair_value,164.572754,2026-01-25,"10y FCF x exit multiple, discounted at 9.5%, + net cash/share"
-NVDA,price_vs_mid_fv,1.317153,2026-10-19,price / mid fair value - 1
+NVDA,price_vs_mid_fv,1.310536,2026-10-20,price / mid fair value - 1
 NVDA,loss_maker_placeholder_margins,No,2026-01-25,Value Model
 NVDA,data_flags,,,desk_fetch
 MSFT,name,Microsoft Corporation,,Yahoo / SEC
 MSFT,sector,Technology,,Yahoo
 MSFT,industry,Software - Infrastructure,,Yahoo
 MSFT,currency,USD,,Yahoo
-MSFT,price_snapshot,533.52,2026-10-19,Yahoo Finance (delayed ~15 min)
+MSFT,price_snapshot,531.87,2026-10-20,Yahoo Finance (delayed ~15 min)
 MSFT,shares_out,7425545491,,SEC cover / Yahoo
-MSFT,market_cap,3961677030358.32,2026-10-19,price x shares
+MSFT,market_cap,3949424880298.17,2026-10-20,price x shares
 MSFT,last_fiscal_year_end,2026-06-30,2026-06-30,SEC EDGAR companyfacts (XBRL)
 MSFT,years_of_history,11,2026-06-30,SEC EDGAR companyfacts (XBRL)
 MSFT,revenue_ttm,331839000000,2026-06-30,SEC 10-Q roll-forward (last FY + YTD - prior YTD)
@@ -204,7 +204,7 @@ MSFT,cash_and_st_investments,76843000000,2026-06-30,SEC latest balance sheet
 MSFT,total_debt,40294000000,2026-06-30,SEC latest balance sheet
 MSFT,net_cash,36549000000,2026-06-30,SEC latest balance sheet
 MSFT,net_cash_per_share,4.922063,2026-06-30,net cash / shares
-MSFT,enterprise_value,3925128030358.32,2026-06-30,mcap + debt - cash
+MSFT,enterprise_value,3912875880298.17,2026-06-30,mcap + debt - cash
 MSFT,current_ratio,1.230327,2026-06-30,SEC EDGAR companyfacts (XBRL)
 MSFT,share_count_change_5y_total,-0.020373,2026-06-30,SEC EDGAR companyfacts (XBRL)
 MSFT,share_count_change_per_yr_5y,-0.004108,2026-06-30,SEC EDGAR companyfacts (XBRL)
@@ -212,18 +212,18 @@ MSFT,net_acquisitions_5y,0,2026-06-30,SEC EDGAR companyfacts (XBRL)
 MSFT,dividends_paid_ttm,26445000000,2026-06-30,SEC 10-Q roll-forward (last FY + YTD - prior YTD)
 MSFT,dividends_paid_5y,110233000000,2026-06-30,SEC EDGAR companyfacts (XBRL)
 MSFT,buybacks_5y,112886000000,2026-06-30,SEC EDGAR companyfacts (XBRL)
-MSFT,dividend_yield,0.006675,2026-06-30,TTM dividends / mcap
-MSFT,pe_ttm,29.620237,2026-10-19,computed
-MSFT,pe_5y_avg_earnings,42.251939,2026-10-19,computed
-MSFT,pe_forward,25.418721,2026-10-19,computed
-MSFT,ps_ttm,11.938552,2026-10-19,computed
-MSFT,ev_sales,11.828411,2026-10-19,computed
-MSFT,pfcf_ttm,59.140983,2026-10-19,computed
-MSFT,pfcf_5y_avg,58.727531,2026-10-19,computed
+MSFT,dividend_yield,0.006696,2026-06-30,TTM dividends / mcap
+MSFT,pe_ttm,29.528631,2026-10-20,computed
+MSFT,pe_5y_avg_earnings,42.121268,2026-10-20,computed
+MSFT,pe_forward,25.350145,2026-10-20,computed
+MSFT,ps_ttm,11.90163,2026-10-20,computed
+MSFT,ev_sales,11.791489,2026-10-20,computed
+MSFT,pfcf_ttm,58.95808,2026-10-20,computed
+MSFT,pfcf_5y_avg,58.545906,2026-10-20,computed
 MSFT,piotroski_f,6,2026-06-30,"Piotroski 2000, 9/9 tests computable"
-MSFT,altman_z,9.30302,2026-06-30,Altman 1968 original weights
+MSFT,altman_z,9.279756,2026-06-30,Altman 1968 original weights
 MSFT,beneish_m,-2.656892,2026-06-30,Beneish 1999 8-var; 0 index(es) missing set to 1.0
-MSFT,p1_pe_5y,42.251939,2026-06-30,8 Pillars input (below 22.5)
+MSFT,p1_pe_5y,42.121268,2026-06-30,8 Pillars input (below 22.5)
 MSFT,p1_pe_5y_pass,FAIL,2026-06-30,8 Pillars
 MSFT,p2_roic_5y,0.440149,2026-06-30,8 Pillars input (above 0.09)
 MSFT,p2_roic_5y_pass,PASS,2026-06-30,8 Pillars
@@ -237,22 +237,22 @@ MSFT,p6_rev_growth_5y,0.974198,2026-06-30,8 Pillars input (above 0.0)
 MSFT,p6_rev_growth_5y_pass,PASS,2026-06-30,8 Pillars
 MSFT,p7_ltliab_over_fcf5,2.181545,2026-06-30,8 Pillars input (below 5)
 MSFT,p7_ltliab_over_fcf5_pass,PASS,2026-06-30,8 Pillars
-MSFT,p8_pfcf_5y,58.727531,2026-06-30,8 Pillars input (below 22.5)
+MSFT,p8_pfcf_5y,58.545906,2026-06-30,8 Pillars input (below 22.5)
 MSFT,p8_pfcf_5y_pass,FAIL,2026-06-30,8 Pillars
 MSFT,pillars_passed,6/8,2026-06-30,8 Pillars (computable)
-MSFT,eps_est_current_fy,19.77839,2027-06-30,Yahoo earningsTrend
-MSFT,eps_est_next_fy,23.72451,2027-06-30,Yahoo earningsTrend
-MSFT,eps_growth_current_fy,0.1446,2027-06-30,Yahoo earningsTrend
-MSFT,eps_growth_next_fy,0.1995,2027-06-30,Yahoo earningsTrend
-MSFT,revenue_est_current_fy,391508256490,2027-06-30,Yahoo earningsTrend
-MSFT,revenue_est_next_fy,468767179860,2027-06-30,Yahoo earningsTrend
-MSFT,revenue_growth_current_fy,0.1798,2027-06-30,Yahoo earningsTrend
-MSFT,revenue_growth_next_fy,0.1973,2027-06-30,Yahoo earningsTrend
-MSFT,analyst_target_mean,599.27527,2027-06-30,Yahoo earningsTrend
+MSFT,eps_est_current_fy,19.76222,2027-06-30,Yahoo earningsTrend
+MSFT,eps_est_next_fy,23.69881,2027-06-30,Yahoo earningsTrend
+MSFT,eps_growth_current_fy,0.1436,2027-06-30,Yahoo earningsTrend
+MSFT,eps_growth_next_fy,0.1992,2027-06-30,Yahoo earningsTrend
+MSFT,revenue_est_current_fy,391398107930,2027-06-30,Yahoo earningsTrend
+MSFT,revenue_est_next_fy,468502743510,2027-06-30,Yahoo earningsTrend
+MSFT,revenue_growth_current_fy,0.1795,2027-06-30,Yahoo earningsTrend
+MSFT,revenue_growth_next_fy,0.197,2027-06-30,Yahoo earningsTrend
+MSFT,analyst_target_mean,600.8791,2027-06-30,Yahoo earningsTrend
 MSFT,analyst_count,53,2027-06-30,Yahoo earningsTrend
 MSFT,next_earnings_date,2026-10-28,,Yahoo calendar
 MSFT,ex_dividend_date,2026-11-19,,Yahoo calendar
-MSFT,institutional_pct,0.75796,2026-06-30,Yahoo Finance (13F filings via Yahoo)
+MSFT,institutional_pct,0.75793,2026-06-30,Yahoo Finance (13F filings via Yahoo)
 MSFT,insider_pct,0.00079,2026-06-30,Yahoo Finance (13F filings via Yahoo)
 MSFT,holder_1_name,Blackrock Inc.,2026-06-30,Yahoo Finance (13F filings via Yahoo)
 MSFT,holder_1_pct,0.0818,2026-06-30,Yahoo Finance (13F filings via Yahoo)
@@ -275,13 +275,13 @@ MSFT,holder_9_pct,0.0138,2026-06-30,Yahoo Finance (13F filings via Yahoo)
 MSFT,holder_10_name,Invesco Ltd.,2026-06-30,Yahoo Finance (13F filings via Yahoo)
 MSFT,holder_10_pct,0.0135,2026-06-30,Yahoo Finance (13F filings via Yahoo)
 MSFT,short_pct_float,0.0082,2026-09-30,Yahoo (FINRA)
-MSFT,px_hi52,543.450012,2026-10-19,Yahoo daily closes
-MSFT,px_lo52,352.829987,2026-10-19,Yahoo daily closes
-MSFT,px_ath,543.450012,2026-10-19,Yahoo daily closes
-MSFT,px_ma50,506.203,2026-10-19,Yahoo daily closes
-MSFT,px_ma200,435.501499,2026-10-19,Yahoo daily closes
-MSFT,px_ret30,0.080481,2026-10-19,Yahoo daily closes
-MSFT,px_cagr5,0.116659,2026-10-19,Yahoo daily closes
+MSFT,px_hi52,543.450012,2026-10-20,Yahoo daily closes
+MSFT,px_lo52,352.829987,2026-10-20,Yahoo daily closes
+MSFT,px_ath,543.450012,2026-10-20,Yahoo daily closes
+MSFT,px_ma50,506.7192,2026-10-20,Yahoo daily closes
+MSFT,px_ma200,435.796149,2026-10-20,Yahoo daily closes
+MSFT,px_ret30,0.07714,2026-10-20,Yahoo daily closes
+MSFT,px_cagr5,0.115286,2026-10-20,Yahoo daily closes
 MSFT,g_cash_debt_score,4.0,2026-06-30,workbook Thresholds ladder (1-5)
 MSFT,g_cash_debt_grade,B,2026-06-30,A>=4.5 B>=3.75 C>=3 D>=2
 MSFT,g_revenue_margin_score,4.5,2026-06-30,workbook Thresholds ladder (1-5)
@@ -324,16 +324,16 @@ MSFT,vm_high_exit_pfcf,20,2026-06-30,Value Model suggestion
 MSFT,vm_high_share_change,-0.009108,2026-06-30,Value Model suggestion
 MSFT,vm_high_rev_y10,876509403873.3925,2026-06-30,Value Model suggestion
 MSFT,vm_high_fair_value,290.421324,2026-06-30,"10y FCF x exit multiple, discounted at 9.5%, + net cash/share"
-MSFT,price_vs_mid_fv,1.845199,2026-10-19,price / mid fair value - 1
+MSFT,price_vs_mid_fv,1.8364,2026-10-20,price / mid fair value - 1
 MSFT,loss_maker_placeholder_margins,No,2026-06-30,Value Model
 MSFT,data_flags,,,desk_fetch
 MU,name,"Micron Technology, Inc.",,Yahoo / SEC
 MU,sector,Technology,,Yahoo
 MU,industry,Semiconductors,,Yahoo
 MU,currency,USD,,Yahoo
-MU,price_snapshot,904.9,2026-10-19,Yahoo Finance (delayed ~15 min)
+MU,price_snapshot,896.07,2026-10-20,Yahoo Finance (delayed ~15 min)
 MU,shares_out,1131423212,,SEC cover / Yahoo
-MU,market_cap,1023824864538.7999,2026-10-19,price x shares
+MU,market_cap,1013834397576.8401,2026-10-20,price x shares
 MU,last_fiscal_year_end,2026-09-03,2026-09-03,SEC EDGAR companyfacts (XBRL)
 MU,years_of_history,11,2026-09-03,SEC EDGAR companyfacts (XBRL)
 MU,revenue_ttm,133188000000,2026-09-03,SEC 10-Q roll-forward (last FY + YTD - prior YTD)
@@ -367,7 +367,7 @@ MU,cash_and_st_investments,43434000000,2026-09-03,SEC latest balance sheet
 MU,total_debt,5179000000,2026-09-03,SEC latest balance sheet
 MU,net_cash,38255000000,2026-09-03,SEC latest balance sheet
 MU,net_cash_per_share,33.811398,2026-09-03,net cash / shares
-MU,enterprise_value,985569864538.7999,2026-09-03,mcap + debt - cash
+MU,enterprise_value,975579397576.8401,2026-09-03,mcap + debt - cash
 MU,current_ratio,3.313805,2026-09-03,SEC EDGAR companyfacts (XBRL)
 MU,share_count_change_5y_total,0.001753,2026-09-03,SEC EDGAR companyfacts (XBRL)
 MU,share_count_change_per_yr_5y,0.00035,2026-09-03,SEC EDGAR companyfacts (XBRL)
@@ -375,18 +375,18 @@ MU,net_acquisitions_5y,0,2026-09-03,SEC EDGAR companyfacts (XBRL)
 MU,dividends_paid_ttm,610000000,2026-09-03,SEC 10-Q roll-forward (last FY + YTD - prior YTD)
 MU,dividends_paid_5y,2610000000,2026-09-03,SEC EDGAR companyfacts (XBRL)
 MU,buybacks_5y,3807000000,2026-09-03,SEC EDGAR companyfacts (XBRL)
-MU,dividend_yield,0.000596,2026-09-03,TTM dividends / mcap
-MU,pe_ttm,12.049393,2026-10-19,computed
-MU,pe_5y_avg_earnings,52.698418,2026-10-19,computed
-MU,pe_forward,5.007644,2026-10-19,computed
-MU,ps_ttm,7.687065,2026-10-19,computed
-MU,ev_sales,7.39984,2026-10-19,computed
-MU,pfcf_ttm,17.363853,2026-10-19,computed
-MU,pfcf_5y_avg,88.64438,2026-10-19,computed
+MU,dividend_yield,0.000602,2026-09-03,TTM dividends / mcap
+MU,pe_ttm,11.931815,2026-10-20,computed
+MU,pe_5y_avg_earnings,52.184188,2026-10-20,computed
+MU,pe_forward,4.956499,2026-10-20,computed
+MU,ps_ttm,7.612055,2026-10-20,computed
+MU,ev_sales,7.32483,2026-10-20,computed
+MU,pfcf_ttm,17.194417,2026-10-20,computed
+MU,pfcf_5y_avg,87.77939,2026-10-20,computed
 MU,piotroski_f,8,2026-09-03,"Piotroski 2000, 9/9 tests computable"
-MU,altman_z,14.366837,2026-09-03,Altman 1968 original weights
+MU,altman_z,14.262607,2026-09-03,Altman 1968 original weights
 MU,beneish_m,-0.204308,2026-09-03,Beneish 1999 8-var; 2 index(es) missing set to 1.0
-MU,p1_pe_5y,52.698418,2026-09-03,8 Pillars input (below 22.5)
+MU,p1_pe_5y,52.184188,2026-09-03,8 Pillars input (below 22.5)
 MU,p1_pe_5y_pass,FAIL,2026-09-03,8 Pillars
 MU,p2_roic_5y,0.220063,2026-09-03,8 Pillars input (above 0.09)
 MU,p2_roic_5y_pass,PASS,2026-09-03,8 Pillars
@@ -400,23 +400,23 @@ MU,p6_rev_growth_5y,3.807363,2026-09-03,8 Pillars input (above 0.0)
 MU,p6_rev_growth_5y_pass,PASS,2026-09-03,8 Pillars
 MU,p7_ltliab_over_fcf5,2.599872,2026-09-03,8 Pillars input (below 5)
 MU,p7_ltliab_over_fcf5_pass,PASS,2026-09-03,8 Pillars
-MU,p8_pfcf_5y,88.64438,2026-09-03,8 Pillars input (below 22.5)
+MU,p8_pfcf_5y,87.77939,2026-09-03,8 Pillars input (below 22.5)
 MU,p8_pfcf_5y_pass,FAIL,2026-09-03,8 Pillars
 MU,pillars_passed,5/8,2026-09-03,8 Pillars (computable)
 MU,eps_est_current_fy,176.54659,2027-08-31,Yahoo earningsTrend
 MU,eps_est_next_fy,206.89381,2027-08-31,Yahoo earningsTrend
 MU,eps_growth_current_fy,1.3377,2027-08-31,Yahoo earningsTrend
 MU,eps_growth_next_fy,0.1719,2027-08-31,Yahoo earningsTrend
-MU,revenue_est_current_fy,275504757330,2027-08-31,Yahoo earningsTrend
-MU,revenue_est_next_fy,318881817800,2027-08-31,Yahoo earningsTrend
+MU,revenue_est_current_fy,275504767090,2027-08-31,Yahoo earningsTrend
+MU,revenue_est_next_fy,318881822450,2027-08-31,Yahoo earningsTrend
 MU,revenue_growth_current_fy,1.0685,2027-08-31,Yahoo earningsTrend
 MU,revenue_growth_next_fy,0.1574,2027-08-31,Yahoo earningsTrend
 MU,analyst_target_mean,1560.5652,2027-08-31,Yahoo earningsTrend
 MU,analyst_count,46,2027-08-31,Yahoo earningsTrend
 MU,next_earnings_date,2026-12-23,,Yahoo calendar (estimated)
 MU,ex_dividend_date,2026-10-14,,Yahoo calendar
-MU,institutional_pct,0.80042,2026-06-30,Yahoo Finance (13F filings via Yahoo)
-MU,insider_pct,0.00243,2026-06-30,Yahoo Finance (13F filings via Yahoo)
+MU,institutional_pct,0.80044,2026-06-30,Yahoo Finance (13F filings via Yahoo)
+MU,insider_pct,0.00244,2026-06-30,Yahoo Finance (13F filings via Yahoo)
 MU,holder_1_name,Blackrock Inc.,2026-06-30,Yahoo Finance (13F filings via Yahoo)
 MU,holder_1_pct,0.0927,2026-06-30,Yahoo Finance (13F filings via Yahoo)
 MU,holder_2_name,Vanguard Capital Management LLC,2026-06-30,Yahoo Finance (13F filings via Yahoo)
@@ -438,13 +438,13 @@ MU,holder_9_pct,0.0218,2026-06-30,Yahoo Finance (13F filings via Yahoo)
 MU,holder_10_name,Primecap Management Company,2026-06-30,Yahoo Finance (13F filings via Yahoo)
 MU,holder_10_pct,0.017,2026-06-30,Yahoo Finance (13F filings via Yahoo)
 MU,short_pct_float,0.0231,2026-09-30,Yahoo (FINRA)
-MU,px_hi52,1213.560059,2026-10-19,Yahoo daily closes
-MU,px_lo52,198.470001,2026-10-19,Yahoo daily closes
-MU,px_ath,1213.560059,2026-10-19,Yahoo daily closes
-MU,px_ma50,983.664401,2026-10-19,Yahoo daily closes
-MU,px_ma200,720.936601,2026-10-19,Yahoo daily closes
-MU,px_ret30,-0.109175,2026-10-19,Yahoo daily closes
-MU,px_cagr5,0.681778,2026-10-19,Yahoo daily closes
+MU,px_hi52,1213.560059,2026-10-20,Yahoo daily closes
+MU,px_lo52,198.470001,2026-10-20,Yahoo daily closes
+MU,px_ath,1213.560059,2026-10-20,Yahoo daily closes
+MU,px_ma50,984.365801,2026-10-20,Yahoo daily closes
+MU,px_ma200,723.839851,2026-10-20,Yahoo daily closes
+MU,px_ret30,-0.117868,2026-10-20,Yahoo daily closes
+MU,px_cagr5,0.67694,2026-10-20,Yahoo daily closes
 MU,g_cash_debt_score,5.0,2026-09-03,workbook Thresholds ladder (1-5)
 MU,g_cash_debt_grade,A,2026-09-03,A>=4.5 B>=3.75 C>=3 D>=2
 MU,g_revenue_margin_score,5.0,2026-09-03,workbook Thresholds ladder (1-5)
@@ -487,16 +487,16 @@ MU,vm_high_exit_pfcf,20,2026-09-03,Value Model suggestion
 MU,vm_high_share_change,-0.00465,2026-09-03,Value Model suggestion
 MU,vm_high_rev_y10,538819743703.46466,2026-09-03,Value Model suggestion
 MU,vm_high_fair_value,390.534956,2026-09-03,"10y FCF x exit multiple, discounted at 9.5%, + net cash/share"
-MU,price_vs_mid_fv,2.75741,2026-10-19,price / mid fair value - 1
+MU,price_vs_mid_fv,2.720746,2026-10-20,price / mid fair value - 1
 MU,loss_maker_placeholder_margins,No,2026-09-03,Value Model
 MU,data_flags,,,desk_fetch
 NBIS,name,Nebius Group N.V.,,Yahoo / SEC
 NBIS,sector,Communication Services,,Yahoo
 NBIS,industry,Internet Content & Information,,Yahoo
 NBIS,currency,USD,,Yahoo
-NBIS,price_snapshot,170.24,2026-10-19,Yahoo Finance (delayed ~15 min)
-NBIS,shares_out,271855230.075188,,SEC cover / Yahoo
-NBIS,market_cap,46280634368.00001,2026-10-19,price x shares
+NBIS,price_snapshot,171.45,2026-10-20,Yahoo Finance (delayed ~15 min)
+NBIS,shares_out,271855234.948965,,SEC cover / Yahoo
+NBIS,market_cap,46609580032.0,2026-10-20,price x shares
 NBIS,last_fiscal_year_end,2025-12-31,2025-12-31,SEC EDGAR companyfacts (XBRL)
 NBIS,years_of_history,4,2025-12-31,SEC EDGAR companyfacts (XBRL)
 NBIS,revenue_ttm,1355100000.0,2026-06-30,Yahoo Finance trailing 12 months (newer than SEC XBRL)
@@ -529,8 +529,8 @@ NBIS,roic_5y_avg,-0.135357,2025-12-31,SEC EDGAR companyfacts (XBRL)
 NBIS,cash_and_st_investments,8042100224,2026-06-30,Yahoo latest quarter (cash incl. short-term investments; SEC balance sheet older)
 NBIS,total_debt,10195300352,2026-06-30,Yahoo latest quarter (cash incl. short-term investments; SEC balance sheet older)
 NBIS,net_cash,-2153200128,2026-06-30,Yahoo latest quarter (cash incl. short-term investments; SEC balance sheet older)
-NBIS,net_cash_per_share,-7.920393,2026-06-30,net cash / shares
-NBIS,enterprise_value,48433834496.00001,2026-06-30,mcap + debt - cash
+NBIS,net_cash_per_share,-7.920392,2026-06-30,net cash / shares
+NBIS,enterprise_value,48762780160.0,2026-06-30,mcap + debt - cash
 NBIS,current_ratio,3.083781,2025-12-31,SEC EDGAR companyfacts (XBRL)
 NBIS,share_count_change_5y_total,,2025-12-31,SEC EDGAR companyfacts (XBRL)
 NBIS,share_count_change_per_yr_5y,-0.123659,2025-12-31,SEC EDGAR companyfacts (XBRL)
@@ -539,17 +539,17 @@ NBIS,dividends_paid_ttm,0,2026-06-30,Yahoo Finance trailing 12 months (newer tha
 NBIS,dividends_paid_5y,0,2025-12-31,SEC EDGAR companyfacts (XBRL)
 NBIS,buybacks_5y,10000000,2025-12-31,SEC EDGAR companyfacts (XBRL)
 NBIS,dividend_yield,0.0,2026-06-30,TTM dividends / mcap
-NBIS,pe_ttm,1091.524395,2026-10-19,computed
-NBIS,pe_5y_avg_earnings,432.529293,2026-10-19,computed
-NBIS,pe_forward,,2026-10-19,computed
-NBIS,ps_ttm,34.152929,2026-10-19,computed
-NBIS,ev_sales,35.74189,2026-10-19,computed
-NBIS,pfcf_ttm,,2026-10-19,computed
-NBIS,pfcf_5y_avg,,2026-10-19,computed
+NBIS,pe_ttm,1099.282548,2026-10-20,computed
+NBIS,pe_5y_avg_earnings,435.603552,2026-10-20,computed
+NBIS,pe_forward,,2026-10-20,computed
+NBIS,ps_ttm,34.395676,2026-10-20,computed
+NBIS,ev_sales,35.984636,2026-10-20,computed
+NBIS,pfcf_ttm,,2026-10-20,computed
+NBIS,pfcf_5y_avg,,2026-10-20,computed
 NBIS,piotroski_f,7,2025-12-31,"Piotroski 2000, 9/9 tests computable"
-NBIS,altman_z,4.102704,2025-12-31,Altman 1968 original weights
+NBIS,altman_z,4.127889,2025-12-31,Altman 1968 original weights
 NBIS,beneish_m,9.925454,2025-12-31,Beneish 1999 8-var; 0 index(es) missing set to 1.0
-NBIS,p1_pe_5y,432.529293,2025-12-31,8 Pillars input (below 22.5)
+NBIS,p1_pe_5y,435.603552,2025-12-31,8 Pillars input (below 22.5)
 NBIS,p1_pe_5y_pass,FAIL,2025-12-31,8 Pillars
 NBIS,p2_roic_5y,-0.135357,2025-12-31,8 Pillars input (above 0.09)
 NBIS,p2_roic_5y_pass,FAIL,2025-12-31,8 Pillars
@@ -578,7 +578,7 @@ NBIS,analyst_target_mean,283.6,2026-12-31,Yahoo earningsTrend
 NBIS,analyst_count,20,2026-12-31,Yahoo earningsTrend
 NBIS,next_earnings_date,2026-11-10,,Yahoo calendar
 NBIS,ex_dividend_date,,,Yahoo calendar
-NBIS,institutional_pct,0.69885,2026-06-30,Yahoo Finance (13F filings via Yahoo)
+NBIS,institutional_pct,0.69909,2026-06-30,Yahoo Finance (13F filings via Yahoo)
 NBIS,insider_pct,0.03401,2026-06-30,Yahoo Finance (13F filings via Yahoo)
 NBIS,holder_1_name,Blackrock Inc.,2026-06-30,Yahoo Finance (13F filings via Yahoo)
 NBIS,holder_1_pct,0.0525,2026-06-30,Yahoo Finance (13F filings via Yahoo)
@@ -601,13 +601,13 @@ NBIS,holder_9_pct,0.0203,2026-06-30,Yahoo Finance (13F filings via Yahoo)
 NBIS,holder_10_name,Lone Pine Capital Llc,2026-06-30,Yahoo Finance (13F filings via Yahoo)
 NBIS,holder_10_pct,0.0194,2026-06-30,Yahoo Finance (13F filings via Yahoo)
 NBIS,short_pct_float,0.1893,2026-09-30,Yahoo (FINRA)
-NBIS,px_hi52,286.690002,2026-10-19,Yahoo daily closes
-NBIS,px_lo52,73.870003,2026-10-19,Yahoo daily closes
-NBIS,px_ath,286.690002,2026-10-19,Yahoo daily closes
-NBIS,px_ma50,222.4487,2026-10-19,Yahoo daily closes
-NBIS,px_ma200,174.472425,2026-10-19,Yahoo daily closes
-NBIS,px_ret30,-0.238436,2026-10-19,Yahoo daily closes
-NBIS,px_cagr5,,2026-10-19,Yahoo daily closes
+NBIS,px_hi52,286.690002,2026-10-20,Yahoo daily closes
+NBIS,px_lo52,73.870003,2026-10-20,Yahoo daily closes
+NBIS,px_ath,286.690002,2026-10-20,Yahoo daily closes
+NBIS,px_ma50,222.1955,2026-10-20,Yahoo daily closes
+NBIS,px_ma200,174.879925,2026-10-20,Yahoo daily closes
+NBIS,px_ret30,-0.233023,2026-10-20,Yahoo daily closes
+NBIS,px_cagr5,,2026-10-20,Yahoo daily closes
 NBIS,g_cash_debt_score,5.0,2025-12-31,workbook Thresholds ladder (1-5)
 NBIS,g_cash_debt_grade,A,2025-12-31,A>=4.5 B>=3.75 C>=3 D>=2
 NBIS,g_revenue_margin_score,3.0,2025-12-31,workbook Thresholds ladder (1-5)
@@ -644,23 +644,23 @@ NBIS,vm_mid_fcf_margin,0.15,2025-12-31,Value Model suggestion
 NBIS,vm_mid_exit_pfcf,16.0,2025-12-31,Value Model suggestion
 NBIS,vm_mid_share_change,0.04,2025-12-31,Value Model suggestion
 NBIS,vm_mid_rev_y10,50000000000.00002,2025-12-31,Value Model suggestion
-NBIS,vm_mid_fair_value,112.408237,2025-12-31,"10y FCF x exit multiple, discounted at 9.5%, + net cash/share"
+NBIS,vm_mid_fair_value,112.408235,2025-12-31,"10y FCF x exit multiple, discounted at 9.5%, + net cash/share"
 NBIS,vm_high_rev_growth,0.396077,2025-12-31,Value Model suggestion
 NBIS,vm_high_fcf_margin,0.22,2025-12-31,Value Model suggestion
 NBIS,vm_high_exit_pfcf,20.0,2025-12-31,Value Model suggestion
 NBIS,vm_high_share_change,0.025,2025-12-31,Value Model suggestion
 NBIS,vm_high_rev_y10,90000000000.00008,2025-12-31,Value Model suggestion
-NBIS,vm_high_fair_value,451.253987,2025-12-31,"10y FCF x exit multiple, discounted at 9.5%, + net cash/share"
-NBIS,price_vs_mid_fv,0.51448,2026-10-19,price / mid fair value - 1
+NBIS,vm_high_fair_value,451.253979,2025-12-31,"10y FCF x exit multiple, discounted at 9.5%, + net cash/share"
+NBIS,price_vs_mid_fv,0.525244,2026-10-20,price / mid fair value - 1
 NBIS,loss_maker_placeholder_margins,No,2025-12-31,Value Model
 NBIS,data_flags,"Foreign private issuer (files 20-F): no quarterly XBRL, so TTM may equal the last fiscal year or come from Yahoo. | History break: revenue fell >80% in FY2022 (restructuring / divestiture). Years before that belong to the former business and are dropped. | Only 4 usable fiscal years: 5/10-year averages are thin or n/a. | TTM figures from Yahoo (as of 2026-06-30); SEC XBRL TTM was older (2025-12-31). | Share count taken from Yahoo market cap ÷ price (SEC cover count looked stale or partial). | Margin history capped at +/-100% for FCF,FCF_TTM,GrossProfit,NetIncome,OperatingIncome (tiny-revenue years made raw ratios absurd). | Value model uses manual overrides from overrides.csv: dil,fcfm,mult,rev0,rev10.",,desk_fetch
 AMD,name,"Advanced Micro Devices, Inc.",,Yahoo / SEC
 AMD,sector,Technology,,Yahoo
 AMD,industry,Semiconductors,,Yahoo
 AMD,currency,USD,,Yahoo
-AMD,price_snapshot,538.05,2026-10-19,Yahoo Finance (delayed ~15 min)
+AMD,price_snapshot,534.74,2026-10-20,Yahoo Finance (delayed ~15 min)
 AMD,shares_out,1632475042,,SEC cover / Yahoo
-AMD,market_cap,878353196348.1,2026-10-19,price x shares
+AMD,market_cap,872949703959.08,2026-10-20,price x shares
 AMD,last_fiscal_year_end,2025-12-27,2025-12-27,SEC EDGAR companyfacts (XBRL)
 AMD,years_of_history,11,2025-12-27,SEC EDGAR companyfacts (XBRL)
 AMD,revenue_ttm,41305000000,2026-06-27,SEC 10-Q roll-forward (last FY + YTD - prior YTD)
@@ -694,7 +694,7 @@ AMD,cash_and_st_investments,13111000000,2026-06-27,SEC latest balance sheet
 AMD,total_debt,3250000000,2026-06-27,SEC latest balance sheet
 AMD,net_cash,9861000000,2026-06-27,SEC latest balance sheet
 AMD,net_cash_per_share,6.040521,2026-06-27,net cash / shares
-AMD,enterprise_value,868492196348.1,2026-06-27,mcap + debt - cash
+AMD,enterprise_value,863088703959.08,2026-06-27,mcap + debt - cash
 AMD,current_ratio,2.850026,2025-12-27,SEC EDGAR companyfacts (XBRL)
 AMD,share_count_change_5y_total,0.355427,2025-12-27,SEC EDGAR companyfacts (XBRL)
 AMD,share_count_change_per_yr_5y,0.062711,2025-12-27,SEC EDGAR companyfacts (XBRL)
@@ -703,17 +703,17 @@ AMD,dividends_paid_ttm,0,2026-06-27,SEC 10-Q roll-forward (last FY + YTD - prior
 AMD,dividends_paid_5y,0,2025-12-27,SEC EDGAR companyfacts (XBRL)
 AMD,buybacks_5y,8627000000,2025-12-27,SEC EDGAR companyfacts (XBRL)
 AMD,dividend_yield,0.0,2026-06-27,TTM dividends / mcap
-AMD,pe_ttm,136.517438,2026-10-19,computed
-AMD,pe_5y_avg_earnings,388.239567,2026-10-19,computed
-AMD,pe_forward,38.025509,2026-10-19,computed
-AMD,ps_ttm,21.265057,2026-10-19,computed
-AMD,ev_sales,21.026321,2026-10-19,computed
-AMD,pfcf_ttm,104.528525,2026-10-19,computed
-AMD,pfcf_5y_avg,264.627982,2026-10-19,computed
+AMD,pe_ttm,135.677604,2026-10-20,computed
+AMD,pe_5y_avg_earnings,385.851177,2026-10-20,computed
+AMD,pe_forward,37.730046,2026-10-20,computed
+AMD,ps_ttm,21.134238,2026-10-20,computed
+AMD,ev_sales,20.895502,2026-10-20,computed
+AMD,pfcf_ttm,103.885482,2026-10-20,computed
+AMD,pfcf_5y_avg,263.000031,2026-10-20,computed
 AMD,piotroski_f,8,2025-12-27,"Piotroski 2000, 9/9 tests computable"
-AMD,altman_z,38.844561,2025-12-27,Altman 1968 original weights
+AMD,altman_z,38.611769,2025-12-27,Altman 1968 original weights
 AMD,beneish_m,-2.683712,2025-12-27,Beneish 1999 8-var; 0 index(es) missing set to 1.0
-AMD,p1_pe_5y,388.239567,2025-12-27,8 Pillars input (below 22.5)
+AMD,p1_pe_5y,385.851177,2025-12-27,8 Pillars input (below 22.5)
 AMD,p1_pe_5y_pass,FAIL,2025-12-27,8 Pillars
 AMD,p2_roic_5y,0.174793,2025-12-27,8 Pillars input (above 0.09)
 AMD,p2_roic_5y_pass,PASS,2025-12-27,8 Pillars
@@ -727,22 +727,22 @@ AMD,p6_rev_growth_5y,3.230769,2025-12-27,8 Pillars input (above 0.0)
 AMD,p6_rev_growth_5y_pass,PASS,2025-12-27,8 Pillars
 AMD,p7_ltliab_over_fcf5,1.347313,2025-12-27,8 Pillars input (below 5)
 AMD,p7_ltliab_over_fcf5_pass,PASS,2025-12-27,8 Pillars
-AMD,p8_pfcf_5y,264.627982,2025-12-27,8 Pillars input (below 22.5)
+AMD,p8_pfcf_5y,263.000031,2025-12-27,8 Pillars input (below 22.5)
 AMD,p8_pfcf_5y_pass,FAIL,2025-12-27,8 Pillars
 AMD,pillars_passed,5/8,2025-12-27,8 Pillars (computable)
-AMD,eps_est_current_fy,7.58823,2026-12-31,Yahoo earningsTrend
-AMD,eps_est_next_fy,15.76209,2026-12-31,Yahoo earningsTrend
-AMD,eps_growth_current_fy,0.8197,2026-12-31,Yahoo earningsTrend
+AMD,eps_est_current_fy,7.58843,2026-12-31,Yahoo earningsTrend
+AMD,eps_est_next_fy,15.76289,2026-12-31,Yahoo earningsTrend
+AMD,eps_growth_current_fy,0.8198,2026-12-31,Yahoo earningsTrend
 AMD,eps_growth_next_fy,1.0772,2026-12-31,Yahoo earningsTrend
-AMD,revenue_est_current_fy,50956581680,2026-12-31,Yahoo earningsTrend
-AMD,revenue_est_next_fy,89087784810,2026-12-31,Yahoo earningsTrend
-AMD,revenue_growth_current_fy,0.4711,2026-12-31,Yahoo earningsTrend
-AMD,revenue_growth_next_fy,0.7483,2026-12-31,Yahoo earningsTrend
-AMD,analyst_target_mean,627.6549,2026-12-31,Yahoo earningsTrend
-AMD,analyst_count,51,2026-12-31,Yahoo earningsTrend
+AMD,revenue_est_current_fy,50972190010,2026-12-31,Yahoo earningsTrend
+AMD,revenue_est_next_fy,89170919430,2026-12-31,Yahoo earningsTrend
+AMD,revenue_growth_current_fy,0.4715,2026-12-31,Yahoo earningsTrend
+AMD,revenue_growth_next_fy,0.7494,2026-12-31,Yahoo earningsTrend
+AMD,analyst_target_mean,636.208,2026-12-31,Yahoo earningsTrend
+AMD,analyst_count,50,2026-12-31,Yahoo earningsTrend
 AMD,next_earnings_date,2026-11-03,,Yahoo calendar
 AMD,ex_dividend_date,1995-04-27,,Yahoo calendar
-AMD,institutional_pct,0.75348,2026-06-30,Yahoo Finance (13F filings via Yahoo)
+AMD,institutional_pct,0.75345,2026-06-30,Yahoo Finance (13F filings via Yahoo)
 AMD,insider_pct,0.00422,2026-06-30,Yahoo Finance (13F filings via Yahoo)
 AMD,holder_1_name,Blackrock Inc.,2026-06-30,Yahoo Finance (13F filings via Yahoo)
 AMD,holder_1_pct,0.0921,2026-06-30,Yahoo Finance (13F filings via Yahoo)
@@ -765,13 +765,13 @@ AMD,holder_9_pct,0.0157,2026-06-30,Yahoo Finance (13F filings via Yahoo)
 AMD,holder_10_name,Morgan Stanley,2026-06-30,Yahoo Finance (13F filings via Yahoo)
 AMD,holder_10_pct,0.0149,2026-06-30,Yahoo Finance (13F filings via Yahoo)
 AMD,short_pct_float,0.0242,2026-09-30,Yahoo (FINRA)
-AMD,px_hi52,649.419983,2026-10-19,Yahoo daily closes
-AMD,px_lo52,190.949997,2026-10-19,Yahoo daily closes
-AMD,px_ath,649.419983,2026-10-19,Yahoo daily closes
-AMD,px_ma50,538.2322,2026-10-19,Yahoo daily closes
-AMD,px_ma200,395.86695,2026-10-19,Yahoo daily closes
-AMD,px_ret30,-0.038888,2026-10-19,Yahoo daily closes
-AMD,px_cagr5,0.358162,2026-10-19,Yahoo daily closes
+AMD,px_hi52,649.419983,2026-10-20,Yahoo daily closes
+AMD,px_lo52,190.949997,2026-10-20,Yahoo daily closes
+AMD,px_ath,649.419983,2026-10-20,Yahoo daily closes
+AMD,px_ma50,539.5358,2026-10-20,Yahoo daily closes
+AMD,px_ma200,397.4233,2026-10-20,Yahoo daily closes
+AMD,px_ret30,-0.0448,2026-10-20,Yahoo daily closes
+AMD,px_cagr5,0.35672,2026-10-20,Yahoo daily closes
 AMD,g_cash_debt_score,5.0,2025-12-27,workbook Thresholds ladder (1-5)
 AMD,g_cash_debt_grade,A,2025-12-27,A>=4.5 B>=3.75 C>=3 D>=2
 AMD,g_revenue_margin_score,4.0,2025-12-27,workbook Thresholds ladder (1-5)
@@ -814,16 +814,16 @@ AMD,vm_high_exit_pfcf,20,2025-12-27,Value Model suggestion
 AMD,vm_high_share_change,0.057711,2025-12-27,Value Model suggestion
 AMD,vm_high_rev_y10,167101762273.41507,2025-12-27,Value Model suggestion
 AMD,vm_high_fair_value,68.736433,2025-12-27,"10y FCF x exit multiple, discounted at 9.5%, + net cash/share"
-AMD,price_vs_mid_fv,19.268346,2026-10-19,price / mid fair value - 1
+AMD,price_vs_mid_fv,19.143658,2026-10-20,price / mid fair value - 1
 AMD,loss_maker_placeholder_margins,No,2025-12-27,Value Model
 AMD,data_flags,,,desk_fetch
 AAPL,name,Apple Inc.,,Yahoo / SEC
 AAPL,sector,Technology,,Yahoo
 AAPL,industry,Consumer Electronics,,Yahoo
 AAPL,currency,USD,,Yahoo
-AAPL,price_snapshot,342.94,2026-10-19,Yahoo Finance (delayed ~15 min)
+AAPL,price_snapshot,339.5,2026-10-20,Yahoo Finance (delayed ~15 min)
 AAPL,shares_out,14594180000,,SEC cover / Yahoo
-AAPL,market_cap,5004928089200.0,2026-10-19,price x shares
+AAPL,market_cap,4954724110000.0,2026-10-20,price x shares
 AAPL,last_fiscal_year_end,2025-09-27,2025-09-27,SEC EDGAR companyfacts (XBRL)
 AAPL,years_of_history,11,2025-09-27,SEC EDGAR companyfacts (XBRL)
 AAPL,revenue_ttm,466823000000,2026-06-27,SEC 10-Q roll-forward (last FY + YTD - prior YTD)
@@ -857,7 +857,7 @@ AAPL,cash_and_st_investments,62399000000,2026-06-27,SEC latest balance sheet
 AAPL,total_debt,82347000000,2026-06-27,SEC latest balance sheet
 AAPL,net_cash,-19948000000,2026-06-27,SEC latest balance sheet
 AAPL,net_cash_per_share,-1.366846,2026-06-27,net cash / shares
-AAPL,enterprise_value,5024876089200.0,2026-06-27,mcap + debt - cash
+AAPL,enterprise_value,4974672110000.0,2026-06-27,mcap + debt - cash
 AAPL,current_ratio,0.893293,2025-09-27,SEC EDGAR companyfacts (XBRL)
 AAPL,share_count_change_5y_total,-0.143969,2025-09-27,SEC EDGAR companyfacts (XBRL)
 AAPL,share_count_change_per_yr_5y,-0.030611,2025-09-27,SEC EDGAR companyfacts (XBRL)
@@ -865,18 +865,18 @@ AAPL,net_acquisitions_5y,339000000,2025-09-27,SEC EDGAR companyfacts (XBRL)
 AAPL,dividends_paid_ttm,15640000000,2026-06-27,SEC 10-Q roll-forward (last FY + YTD - prior YTD)
 AAPL,dividends_paid_5y,74988000000,2025-09-27,SEC EDGAR companyfacts (XBRL)
 AAPL,buybacks_5y,438583000000,2025-09-27,SEC EDGAR companyfacts (XBRL)
-AAPL,dividend_yield,0.003125,2026-06-27,TTM dividends / mcap
-AAPL,pe_ttm,38.818957,2026-10-19,computed
-AAPL,pe_5y_avg_earnings,50.328706,2026-10-19,computed
-AAPL,pe_forward,35.832654,2026-10-19,computed
-AAPL,ps_ttm,10.721254,2026-10-19,computed
-AAPL,ev_sales,10.763986,2026-10-19,computed
-AAPL,pfcf_ttm,36.617049,2026-10-19,computed
-AAPL,pfcf_5y_avg,48.918864,2026-10-19,computed
+AAPL,dividend_yield,0.003157,2026-06-27,TTM dividends / mcap
+AAPL,pe_ttm,38.429567,2026-10-20,computed
+AAPL,pe_5y_avg_earnings,49.823863,2026-10-20,computed
+AAPL,pe_forward,35.499741,2026-10-20,computed
+AAPL,ps_ttm,10.61371,2026-10-20,computed
+AAPL,ev_sales,10.656442,2026-10-20,computed
+AAPL,pfcf_ttm,36.249747,2026-10-20,computed
+AAPL,pfcf_5y_avg,48.428163,2026-10-20,computed
 AAPL,piotroski_f,8,2025-09-27,"Piotroski 2000, 9/9 tests computable"
-AAPL,altman_z,12.783964,2025-09-27,Altman 1968 original weights
+AAPL,altman_z,12.678459,2025-09-27,Altman 1968 original weights
 AAPL,beneish_m,-2.293696,2025-09-27,Beneish 1999 8-var; 0 index(es) missing set to 1.0
-AAPL,p1_pe_5y,50.328706,2025-09-27,8 Pillars input (below 22.5)
+AAPL,p1_pe_5y,49.823863,2025-09-27,8 Pillars input (below 22.5)
 AAPL,p1_pe_5y_pass,FAIL,2025-09-27,8 Pillars
 AAPL,p2_roic_5y,0.937163,2025-09-27,8 Pillars input (above 0.09)
 AAPL,p2_roic_5y_pass,PASS,2025-09-27,8 Pillars
@@ -890,22 +890,22 @@ AAPL,p6_rev_growth_5y,0.700537,2025-09-27,8 Pillars input (above 0.0)
 AAPL,p6_rev_growth_5y_pass,PASS,2025-09-27,8 Pillars
 AAPL,p7_ltliab_over_fcf5,1.171694,2025-09-27,8 Pillars input (below 5)
 AAPL,p7_ltliab_over_fcf5_pass,PASS,2025-09-27,8 Pillars
-AAPL,p8_pfcf_5y,48.918864,2025-09-27,8 Pillars input (below 22.5)
+AAPL,p8_pfcf_5y,48.428163,2025-09-27,8 Pillars input (below 22.5)
 AAPL,p8_pfcf_5y_pass,FAIL,2025-09-27,8 Pillars
 AAPL,pillars_passed,6/8,2025-09-27,8 Pillars (computable)
-AAPL,eps_est_current_fy,8.82006,2026-09-30,Yahoo earningsTrend
-AAPL,eps_est_next_fy,9.5706,2026-09-30,Yahoo earningsTrend
+AAPL,eps_est_current_fy,8.81988,2026-09-30,Yahoo earningsTrend
+AAPL,eps_est_next_fy,9.56345,2026-09-30,Yahoo earningsTrend
 AAPL,eps_growth_current_fy,0.1838,2026-09-30,Yahoo earningsTrend
-AAPL,eps_growth_next_fy,0.0845,2026-09-30,Yahoo earningsTrend
-AAPL,revenue_est_current_fy,478224124500,2026-09-30,Yahoo earningsTrend
-AAPL,revenue_est_next_fy,528113789120,2026-09-30,Yahoo earningsTrend
-AAPL,revenue_growth_current_fy,0.1491,2026-09-30,Yahoo earningsTrend
-AAPL,revenue_growth_next_fy,0.1043,2026-09-30,Yahoo earningsTrend
-AAPL,analyst_target_mean,329.3759,2026-09-30,Yahoo earningsTrend
+AAPL,eps_growth_next_fy,0.0837,2026-09-30,Yahoo earningsTrend
+AAPL,revenue_est_current_fy,477626933750,2026-09-30,Yahoo earningsTrend
+AAPL,revenue_est_next_fy,527288206190,2026-09-30,Yahoo earningsTrend
+AAPL,revenue_growth_current_fy,0.1477,2026-09-30,Yahoo earningsTrend
+AAPL,revenue_growth_next_fy,0.104,2026-09-30,Yahoo earningsTrend
+AAPL,analyst_target_mean,328.35025,2026-09-30,Yahoo earningsTrend
 AAPL,analyst_count,39,2026-09-30,Yahoo earningsTrend
 AAPL,next_earnings_date,2026-11-02,,Yahoo calendar
 AAPL,ex_dividend_date,2026-08-10,,Yahoo calendar
-AAPL,institutional_pct,0.6635,2026-06-30,Yahoo Finance (13F filings via Yahoo)
+AAPL,institutional_pct,0.66355,2026-06-30,Yahoo Finance (13F filings via Yahoo)
 AAPL,insider_pct,0.01648,2026-06-30,Yahoo Finance (13F filings via Yahoo)
 AAPL,holder_1_name,Blackrock Inc.,2026-06-30,Yahoo Finance (13F filings via Yahoo)
 AAPL,holder_1_pct,0.0797,2026-06-30,Yahoo Finance (13F filings via Yahoo)
@@ -928,13 +928,13 @@ AAPL,holder_9_pct,0.0156,2026-06-30,Yahoo Finance (13F filings via Yahoo)
 AAPL,holder_10_name,NORGES BANK,2026-06-30,Yahoo Finance (13F filings via Yahoo)
 AAPL,holder_10_pct,0.0131,2026-06-30,Yahoo Finance (13F filings via Yahoo)
 AAPL,short_pct_float,0.0083,2026-09-30,Yahoo (FINRA)
-AAPL,px_hi52,343.459991,2026-10-19,Yahoo daily closes
-AAPL,px_lo52,246.630005,2026-10-19,Yahoo daily closes
-AAPL,px_ath,343.459991,2026-10-19,Yahoo daily closes
-AAPL,px_ma50,326.2916,2026-10-19,Yahoo daily closes
-AAPL,px_ma200,292.8201,2026-10-19,Yahoo daily closes
-AAPL,px_ret30,0.02026,2026-10-19,Yahoo daily closes
-AAPL,px_cagr5,0.18535,2026-10-19,Yahoo daily closes
+AAPL,px_hi52,343.459991,2026-10-20,Yahoo daily closes
+AAPL,px_lo52,246.630005,2026-10-20,Yahoo daily closes
+AAPL,px_ath,343.459991,2026-10-20,Yahoo daily closes
+AAPL,px_ma50,326.9164,2026-10-20,Yahoo daily closes
+AAPL,px_ma200,293.16255,2026-10-20,Yahoo daily closes
+AAPL,px_ret30,0.010026,2026-10-20,Yahoo daily closes
+AAPL,px_cagr5,0.179426,2026-10-20,Yahoo daily closes
 AAPL,g_cash_debt_score,2.5,2025-09-27,workbook Thresholds ladder (1-5)
 AAPL,g_cash_debt_grade,D,2025-09-27,A>=4.5 B>=3.75 C>=3 D>=2
 AAPL,g_revenue_margin_score,3.0,2025-09-27,workbook Thresholds ladder (1-5)
@@ -977,16 +977,16 @@ AAPL,vm_high_exit_pfcf,20,2025-09-27,Value Model suggestion
 AAPL,vm_high_share_change,-0.035611,2025-09-27,Value Model suggestion
 AAPL,vm_high_rev_y10,841875333340.9602,2025-09-27,Value Model suggestion
 AAPL,vm_high_fair_value,194.51691,2025-09-27,"10y FCF x exit multiple, discounted at 9.5%, + net cash/share"
-AAPL,price_vs_mid_fv,1.826888,2026-10-19,price / mid fair value - 1
+AAPL,price_vs_mid_fv,1.798532,2026-10-20,price / mid fair value - 1
 AAPL,loss_maker_placeholder_margins,No,2025-09-27,Value Model
 AAPL,data_flags,,,desk_fetch
 PANW,name,"Palo Alto Networks, Inc.",,Yahoo / SEC
 PANW,sector,Technology,,Yahoo
 PANW,industry,Software - Infrastructure,,Yahoo
 PANW,currency,USD,,Yahoo
-PANW,price_snapshot,346.95,2026-10-19,Yahoo Finance (delayed ~15 min)
+PANW,price_snapshot,340.28,2026-10-20,Yahoo Finance (delayed ~15 min)
 PANW,shares_out,818000000,,SEC cover / Yahoo
-PANW,market_cap,283805100000.0,2026-10-19,price x shares
+PANW,market_cap,278349040000.0,2026-10-20,price x shares
 PANW,last_fiscal_year_end,2026-07-31,2026-07-31,SEC EDGAR companyfacts (XBRL)
 PANW,years_of_history,11,2026-07-31,SEC EDGAR companyfacts (XBRL)
 PANW,revenue_ttm,11480000000,2026-07-31,SEC 10-Q roll-forward (last FY + YTD - prior YTD)
@@ -1020,7 +1020,7 @@ PANW,cash_and_st_investments,3071000000,2026-07-31,SEC latest balance sheet
 PANW,total_debt,1991500000,2026-07-31,SEC latest balance sheet
 PANW,net_cash,1079500000,2026-07-31,SEC latest balance sheet
 PANW,net_cash_per_share,1.319682,2026-07-31,net cash / shares
-PANW,enterprise_value,282725600000.0,2026-07-31,mcap + debt - cash
+PANW,enterprise_value,277269540000.0,2026-07-31,mcap + debt - cash
 PANW,current_ratio,0.871007,2026-07-31,SEC EDGAR companyfacts (XBRL)
 PANW,share_count_change_5y_total,0.321342,2026-07-31,SEC EDGAR companyfacts (XBRL)
 PANW,share_count_change_per_yr_5y,0.057312,2026-07-31,SEC EDGAR companyfacts (XBRL)
@@ -1029,17 +1029,17 @@ PANW,dividends_paid_ttm,0,2026-07-31,SEC 10-Q roll-forward (last FY + YTD - prio
 PANW,dividends_paid_5y,0,2026-07-31,SEC EDGAR companyfacts (XBRL)
 PANW,buybacks_5y,2732000000,2026-07-31,SEC EDGAR companyfacts (XBRL)
 PANW,dividend_yield,0.0,2026-07-31,TTM dividends / mcap
-PANW,pe_ttm,924.44658,2026-10-19,computed
-PANW,pe_5y_avg_earnings,338.532218,2026-10-19,computed
-PANW,pe_forward,92.480141,2026-10-19,computed
-PANW,ps_ttm,24.721699,2026-10-19,computed
-PANW,ev_sales,24.627666,2026-10-19,computed
-PANW,pfcf_ttm,69.001969,2026-10-19,computed
-PANW,pfcf_5y_avg,93.937251,2026-10-19,computed
+PANW,pe_ttm,906.674397,2026-10-20,computed
+PANW,pe_5y_avg_earnings,332.024048,2026-10-20,computed
+PANW,pe_forward,90.83362,2026-10-20,computed
+PANW,ps_ttm,24.246432,2026-10-20,computed
+PANW,ev_sales,24.152399,2026-10-20,computed
+PANW,pfcf_ttm,67.675429,2026-10-20,computed
+PANW,pfcf_5y_avg,92.131338,2026-10-20,computed
 PANW,piotroski_f,4,2026-07-31,"Piotroski 2000, 9/9 tests computable"
-PANW,altman_z,8.454251,2026-07-31,Altman 1968 original weights
+PANW,altman_z,8.298126,2026-07-31,Altman 1968 original weights
 PANW,beneish_m,-2.596062,2026-07-31,Beneish 1999 8-var; 0 index(es) missing set to 1.0
-PANW,p1_pe_5y,338.532218,2026-07-31,8 Pillars input (below 22.5)
+PANW,p1_pe_5y,332.024048,2026-07-31,8 Pillars input (below 22.5)
 PANW,p1_pe_5y_pass,FAIL,2026-07-31,8 Pillars
 PANW,p2_roic_5y,0.018745,2026-07-31,8 Pillars input (above 0.09)
 PANW,p2_roic_5y_pass,FAIL,2026-07-31,8 Pillars
@@ -1053,7 +1053,7 @@ PANW,p6_rev_growth_5y,1.697305,2026-07-31,8 Pillars input (above 0.0)
 PANW,p6_rev_growth_5y_pass,PASS,2026-07-31,8 Pillars
 PANW,p7_ltliab_over_fcf5,3.655808,2026-07-31,8 Pillars input (below 5)
 PANW,p7_ltliab_over_fcf5_pass,PASS,2026-07-31,8 Pillars
-PANW,p8_pfcf_5y,93.937251,2026-07-31,8 Pillars input (below 22.5)
+PANW,p8_pfcf_5y,92.131338,2026-07-31,8 Pillars input (below 22.5)
 PANW,p8_pfcf_5y_pass,FAIL,2026-07-31,8 Pillars
 PANW,pillars_passed,3/7,2026-07-31,8 Pillars (computable)
 PANW,eps_est_current_fy,4.19114,2027-07-31,Yahoo earningsTrend
@@ -1068,7 +1068,7 @@ PANW,analyst_target_mean,398.52,2027-07-31,Yahoo earningsTrend
 PANW,analyst_count,50,2027-07-31,Yahoo earningsTrend
 PANW,next_earnings_date,2026-11-19,,Yahoo calendar (estimated)
 PANW,ex_dividend_date,,,Yahoo calendar
-PANW,institutional_pct,0.84253,2026-06-30,Yahoo Finance (13F filings via Yahoo)
+PANW,institutional_pct,0.84274,2026-06-30,Yahoo Finance (13F filings via Yahoo)
 PANW,insider_pct,0.00753,2026-06-30,Yahoo Finance (13F filings via Yahoo)
 PANW,holder_1_name,Blackrock Inc.,2026-06-30,Yahoo Finance (13F filings via Yahoo)
 PANW,holder_1_pct,0.7777,2026-06-30,Yahoo Finance (13F filings via Yahoo)
@@ -1091,13 +1091,13 @@ PANW,holder_9_pct,0.2014,2026-06-30,Yahoo Finance (13F filings via Yahoo)
 PANW,holder_10_name,Vanguard Portfolio Management LLC,2026-06-30,Yahoo Finance (13F filings via Yahoo)
 PANW,holder_10_pct,0.1986,2026-06-30,Yahoo Finance (13F filings via Yahoo)
 PANW,short_pct_float,0.0266,2026-09-30,Yahoo (FINRA)
-PANW,px_hi52,419.910004,2026-10-19,Yahoo daily closes
-PANW,px_lo52,141.669998,2026-10-19,Yahoo daily closes
-PANW,px_ath,419.910004,2026-10-19,Yahoo daily closes
-PANW,px_ma50,372.9286,2026-10-19,Yahoo daily closes
-PANW,px_ma200,261.49095,2026-10-19,Yahoo daily closes
-PANW,px_ret30,-0.04574,2026-10-19,Yahoo daily closes
-PANW,px_cagr5,0.322189,2026-10-19,Yahoo daily closes
+PANW,px_hi52,419.910004,2026-10-20,Yahoo daily closes
+PANW,px_lo52,141.669998,2026-10-20,Yahoo daily closes
+PANW,px_ath,419.910004,2026-10-20,Yahoo daily closes
+PANW,px_ma50,372.0334,2026-10-20,Yahoo daily closes
+PANW,px_ma200,262.2955,2026-10-20,Yahoo daily closes
+PANW,px_ret30,-0.064085,2026-10-20,Yahoo daily closes
+PANW,px_cagr5,0.31844,2026-10-20,Yahoo daily closes
 PANW,g_cash_debt_score,3.0,2026-07-31,workbook Thresholds ladder (1-5)
 PANW,g_cash_debt_grade,C,2026-07-31,A>=4.5 B>=3.75 C>=3 D>=2
 PANW,g_revenue_margin_score,2.5,2026-07-31,workbook Thresholds ladder (1-5)
@@ -1140,24 +1140,24 @@ PANW,vm_high_exit_pfcf,17,2026-07-31,Value Model suggestion
 PANW,vm_high_share_change,0.052312,2026-07-31,Value Model suggestion
 PANW,vm_high_rev_y10,46443002805.926765,2026-07-31,Value Model suggestion
 PANW,vm_high_fair_value,86.845345,2026-07-31,"10y FCF x exit multiple, discounted at 9.5%, + net cash/share"
-PANW,price_vs_mid_fv,4.795022,2026-10-19,price / mid fair value - 1
+PANW,price_vs_mid_fv,4.683615,2026-10-20,price / mid fair value - 1
 PANW,loss_maker_placeholder_margins,No,2026-07-31,Value Model
 PANW,data_flags,,,desk_fetch
 TSM,name,Taiwan Semiconductor Manufacturing Company Limited,,Yahoo / SEC
 TSM,sector,Technology,,Yahoo
 TSM,industry,Semiconductors,,Yahoo
 TSM,currency,USD,,Yahoo
-TSM,price_snapshot,420.22,2026-10-19,Yahoo Finance (delayed ~15 min)
+TSM,price_snapshot,425.08,2026-10-20,Yahoo Finance (delayed ~15 min)
 TSM,shares_out,5186474013,,SEC cover / Yahoo
-TSM,market_cap,2179460109742.86,2026-10-19,price x shares
+TSM,market_cap,2204666373446.04,2026-10-20,price x shares
 TSM,last_fiscal_year_end,2024-12-31,2024-12-31,SEC EDGAR companyfacts (XBRL)
 TSM,years_of_history,8,2024-12-31,SEC EDGAR companyfacts (XBRL)
-TSM,revenue_ttm,136207240868.22316,2026-06-30,Yahoo Finance trailing 12 months (newer than SEC XBRL)
-TSM,net_income_ttm,67998170651.98425,2026-06-30,Yahoo Finance trailing 12 months (newer than SEC XBRL)
-TSM,fcf_ttm,34497926044.89177,2026-06-30,Yahoo Finance trailing 12 months (newer than SEC XBRL)
-TSM,cfo_ttm,80815894231.5854,2026-06-30,Yahoo Finance trailing 12 months (newer than SEC XBRL)
-TSM,capex_ttm,46317968186.693634,2026-06-30,Yahoo Finance trailing 12 months (newer than SEC XBRL)
-TSM,sbc_ttm,1162540.974654,2026-06-30,Yahoo Finance trailing 12 months (newer than SEC XBRL)
+TSM,revenue_ttm,136815759422.20734,2026-06-30,Yahoo Finance trailing 12 months (newer than SEC XBRL)
+TSM,net_income_ttm,68301958822.238335,2026-06-30,Yahoo Finance trailing 12 months (newer than SEC XBRL)
+TSM,fcf_ttm,34652048747.46234,2026-06-30,Yahoo Finance trailing 12 months (newer than SEC XBRL)
+TSM,cfo_ttm,81176946777.56804,2026-06-30,Yahoo Finance trailing 12 months (newer than SEC XBRL)
+TSM,capex_ttm,46524898030.105705,2026-06-30,Yahoo Finance trailing 12 months (newer than SEC XBRL)
+TSM,sbc_ttm,1167734.7349,2026-06-30,Yahoo Finance trailing 12 months (newer than SEC XBRL)
 TSM,fcf_5y_avg,14866320000.0,2024-12-31,SEC EDGAR companyfacts (XBRL)
 TSM,fcf_10y_avg,12067425000.0,2024-12-31,SEC EDGAR companyfacts (XBRL)
 TSM,net_income_5y_avg,26999560000.0,2024-12-31,SEC EDGAR companyfacts (XBRL)
@@ -1179,54 +1179,54 @@ TSM,revenue_cagr_10y,,2024-12-31,SEC EDGAR companyfacts (XBRL)
 TSM,roic_ttm,,2026-06-30,TTM op. income x (1-21%) / latest invested capital
 TSM,roic_last_fy,0.492972,2024-12-31,SEC EDGAR companyfacts (XBRL)
 TSM,roic_5y_avg,0.481149,2024-12-31,SEC EDGAR companyfacts (XBRL)
-TSM,cash_and_st_investments,123216463312.45166,2026-06-30,Yahoo latest quarter (cash incl. short-term investments; SEC balance sheet older)
-TSM,total_debt,25102910253.585938,2026-06-30,Yahoo latest quarter (cash incl. short-term investments; SEC balance sheet older)
-TSM,net_cash,98113553058.86572,2026-06-30,Yahoo latest quarter (cash incl. short-term investments; SEC balance sheet older)
-TSM,net_cash_per_share,18.917197,2026-06-30,net cash / shares
-TSM,enterprise_value,2081346556683.9946,2026-06-30,mcap + debt - cash
+TSM,cash_and_st_investments,123766944355.92627,2026-06-30,Yahoo latest quarter (cash incl. short-term investments; SEC balance sheet older)
+TSM,total_debt,25215059846.742188,2026-06-30,Yahoo latest quarter (cash incl. short-term investments; SEC balance sheet older)
+TSM,net_cash,98551884509.18408,2026-06-30,Yahoo latest quarter (cash incl. short-term investments; SEC balance sheet older)
+TSM,net_cash_per_share,19.001712,2026-06-30,net cash / shares
+TSM,enterprise_value,2106114488936.856,2026-06-30,mcap + debt - cash
 TSM,current_ratio,2.359943,2024-12-31,SEC EDGAR companyfacts (XBRL)
 TSM,share_count_change_5y_total,-0.000104,2024-12-31,SEC EDGAR companyfacts (XBRL)
 TSM,share_count_change_per_yr_5y,-2.1e-05,2024-12-31,SEC EDGAR companyfacts (XBRL)
 TSM,net_acquisitions_5y,0,2024-12-31,SEC EDGAR companyfacts (XBRL)
-TSM,dividends_paid_ttm,339624536.292069,2026-06-30,Yahoo Finance trailing 12 months (newer than SEC XBRL)
+TSM,dividends_paid_ttm,341141840.588115,2026-06-30,Yahoo Finance trailing 12 months (newer than SEC XBRL)
 TSM,dividends_paid_5y,48697100000,2024-12-31,SEC EDGAR companyfacts (XBRL)
 TSM,buybacks_5y,0,2024-12-31,SEC EDGAR companyfacts (XBRL)
-TSM,dividend_yield,0.000156,2026-06-30,TTM dividends / mcap
-TSM,pe_ttm,32.051746,2026-10-19,computed
-TSM,pe_5y_avg_earnings,80.72206,2026-10-19,computed
-TSM,pe_forward,18.907369,2026-10-19,computed
-TSM,ps_ttm,16.001059,2026-10-19,computed
-TSM,ev_sales,15.280734,2026-10-19,computed
-TSM,pfcf_ttm,63.176555,2026-10-19,computed
-TSM,pfcf_5y_avg,146.603874,2026-10-19,computed
+TSM,dividend_yield,0.000155,2026-06-30,TTM dividends / mcap
+TSM,pe_ttm,32.278231,2026-10-20,computed
+TSM,pe_5y_avg_earnings,81.655641,2026-10-20,computed
+TSM,pe_forward,19.112185,2026-10-20,computed
+TSM,ps_ttm,16.114126,2026-10-20,computed
+TSM,ev_sales,15.3938,2026-10-20,computed
+TSM,pfcf_ttm,63.622973,2026-10-20,computed
+TSM,pfcf_5y_avg,148.299403,2026-10-20,computed
 TSM,piotroski_f,8,2024-12-31,"Piotroski 2000, 9/9 tests computable"
-TSM,altman_z,19.987515,2024-12-31,Altman 1968 original weights
+TSM,altman_z,20.193073,2024-12-31,Altman 1968 original weights
 TSM,beneish_m,-2.686199,2024-12-31,Beneish 1999 8-var; 2 index(es) missing set to 1.0
-TSM,p1_pe_5y,80.72206,2024-12-31,8 Pillars input (below 22.5)
+TSM,p1_pe_5y,81.655641,2024-12-31,8 Pillars input (below 22.5)
 TSM,p1_pe_5y_pass,FAIL,2024-12-31,8 Pillars
 TSM,p2_roic_5y,0.481149,2024-12-31,8 Pillars input (above 0.09)
 TSM,p2_roic_5y_pass,PASS,2024-12-31,8 Pillars
 TSM,p3_shares_trend,-2.1e-05,2024-12-31,8 Pillars input (below 0.0)
 TSM,p3_shares_trend_pass,PASS,2024-12-31,8 Pillars
-TSM,p4_fcf_growth_5y,5.669101,2024-12-31,8 Pillars input (above 0.0)
+TSM,p4_fcf_growth_5y,5.698896,2024-12-31,8 Pillars input (above 0.0)
 TSM,p4_fcf_growth_5y_pass,PASS,2024-12-31,8 Pillars
-TSM,p5_ni_growth_5y,4.746098,2024-12-31,8 Pillars input (above 0.0)
+TSM,p5_ni_growth_5y,4.771769,2024-12-31,8 Pillars input (above 0.0)
 TSM,p5_ni_growth_5y_pass,PASS,2024-12-31,8 Pillars
-TSM,p6_rev_growth_5y,2.80749,2024-12-31,8 Pillars input (above 0.0)
+TSM,p6_rev_growth_5y,2.8245,2024-12-31,8 Pillars input (above 0.0)
 TSM,p6_rev_growth_5y_pass,PASS,2024-12-31,8 Pillars
 TSM,p7_ltliab_over_fcf5,2.264434,2024-12-31,8 Pillars input (below 5)
 TSM,p7_ltliab_over_fcf5_pass,PASS,2024-12-31,8 Pillars
-TSM,p8_pfcf_5y,146.603874,2024-12-31,8 Pillars input (below 22.5)
+TSM,p8_pfcf_5y,148.299403,2024-12-31,8 Pillars input (below 22.5)
 TSM,p8_pfcf_5y_pass,FAIL,2024-12-31,8 Pillars
 TSM,pillars_passed,6/8,2024-12-31,8 Pillars (computable)
 TSM,eps_est_current_fy,17.50426,2026-12-31,Yahoo earningsTrend
 TSM,eps_est_next_fy,23.38529,2026-12-31,Yahoo earningsTrend
 TSM,eps_growth_current_fy,0.6436,2026-12-31,Yahoo earningsTrend
 TSM,eps_growth_next_fy,0.336,2026-12-31,Yahoo earningsTrend
-TSM,revenue_est_current_fy,170590280211.68085,2026-12-31,Yahoo earningsTrend
-TSM,revenue_est_next_fy,234577352414.07013,2026-12-31,Yahoo earningsTrend
-TSM,revenue_growth_current_fy,0.4601,2026-12-31,Yahoo earningsTrend
-TSM,revenue_growth_next_fy,0.3751,2026-12-31,Yahoo earningsTrend
+TSM,revenue_est_current_fy,171726228450.9867,2026-12-31,Yahoo earningsTrend
+TSM,revenue_est_next_fy,236207490439.8153,2026-12-31,Yahoo earningsTrend
+TSM,revenue_growth_current_fy,0.4632,2026-12-31,Yahoo earningsTrend
+TSM,revenue_growth_next_fy,0.3755,2026-12-31,Yahoo earningsTrend
 TSM,analyst_target_mean,584.39294,2026-12-31,Yahoo earningsTrend
 TSM,analyst_count,20,2026-12-31,Yahoo earningsTrend
 TSM,next_earnings_date,2027-01-14,,Yahoo calendar (estimated)
@@ -1254,13 +1254,13 @@ TSM,holder_9_pct,0.0031,2026-06-30,Yahoo Finance (13F filings via Yahoo)
 TSM,holder_10_name,Bank of America Corporation,2026-06-30,Yahoo Finance (13F filings via Yahoo)
 TSM,holder_10_pct,0.0029,2026-06-30,Yahoo Finance (13F filings via Yahoo)
 TSM,short_pct_float,0.0063,2026-09-30,Yahoo (FINRA)
-TSM,px_hi52,485.799988,2026-10-19,Yahoo daily closes
-TSM,px_lo52,275.059998,2026-10-19,Yahoo daily closes
-TSM,px_ath,485.799988,2026-10-19,Yahoo daily closes
-TSM,px_ma50,434.3674,2026-10-19,Yahoo daily closes
-TSM,px_ma200,395.6283,2026-10-19,Yahoo daily closes
-TSM,px_ret30,-0.033244,2026-10-19,Yahoo daily closes
-TSM,px_cagr5,0.295088,2026-10-19,Yahoo daily closes
+TSM,px_hi52,485.799988,2026-10-20,Yahoo daily closes
+TSM,px_lo52,275.059998,2026-10-20,Yahoo daily closes
+TSM,px_ath,485.799988,2026-10-20,Yahoo daily closes
+TSM,px_ma50,434.4996,2026-10-20,Yahoo daily closes
+TSM,px_ma200,396.15565,2026-10-20,Yahoo daily closes
+TSM,px_ret30,-0.022063,2026-10-20,Yahoo daily closes
+TSM,px_cagr5,0.294454,2026-10-20,Yahoo daily closes
 TSM,g_cash_debt_score,5.0,2024-12-31,workbook Thresholds ladder (1-5)
 TSM,g_cash_debt_grade,A,2024-12-31,A>=4.5 B>=3.75 C>=3 D>=2
 TSM,g_revenue_margin_score,4.5,2024-12-31,workbook Thresholds ladder (1-5)
@@ -1277,53 +1277,53 @@ TSM,g_altman_score,5,2024-12-31,workbook Thresholds ladder (1-5)
 TSM,g_altman_grade,A,2024-12-31,A>=4.5 B>=3.75 C>=3 D>=2
 TSM,g_beneish_score,5,2024-12-31,workbook Thresholds ladder (1-5)
 TSM,g_beneish_grade,A,2024-12-31,A>=4.5 B>=3.75 C>=3 D>=2
-TSM,g_greenblatt_roc_score,4,2024-12-31,workbook Thresholds ladder (1-5)
-TSM,g_greenblatt_roc_grade,B,2024-12-31,A>=4.5 B>=3.75 C>=3 D>=2
+TSM,g_greenblatt_roc_score,5,2024-12-31,workbook Thresholds ladder (1-5)
+TSM,g_greenblatt_roc_grade,A,2024-12-31,A>=4.5 B>=3.75 C>=3 D>=2
 TSM,g_earnings_yield_score,2,2024-12-31,workbook Thresholds ladder (1-5)
 TSM,g_earnings_yield_grade,D,2024-12-31,A>=4.5 B>=3.75 C>=3 D>=2
-TSM,quality_data_score,4.45,2024-12-31,evidence x2 + data checks x1 (judgment questions NOT included - workbook adds them)
-TSM,quality_data_grade,B,2024-12-31,provisional until judgment scored
+TSM,quality_data_score,4.61,2024-12-31,evidence x2 + data checks x1 (judgment questions NOT included - workbook adds them)
+TSM,quality_data_grade,A,2024-12-31,provisional until judgment scored
 TSM,late_cycle_rule,No,2024-12-31,industry match -> 10-yr avg FCF margins (workbook j_LateCyc)
 TSM,value_model_overrides,late,,overrides.csv
 TSM,vm_low_rev_growth,0.069292,2024-12-31,Value Model suggestion
 TSM,vm_low_fcf_margin,0.215294,2024-12-31,Value Model suggestion
 TSM,vm_low_exit_pfcf,14,2024-12-31,Value Model suggestion
 TSM,vm_low_share_change,0.009979,2024-12-31,Value Model suggestion
-TSM,vm_low_rev_y10,266172228022.38013,2024-12-31,Value Model suggestion
-TSM,vm_low_fair_value,75.434879,2024-12-31,"10y FCF x exit multiple, discounted at 9.5%, + net cash/share"
+TSM,vm_low_rev_y10,267361377279.60373,2024-12-31,Value Model suggestion
+TSM,vm_low_fair_value,75.771891,2024-12-31,"10y FCF x exit multiple, discounted at 9.5%, + net cash/share"
 TSM,vm_mid_rev_growth,0.103938,2024-12-31,Value Model suggestion
 TSM,vm_mid_fcf_margin,0.215294,2024-12-31,Value Model suggestion
 TSM,vm_mid_exit_pfcf,17,2024-12-31,Value Model suggestion
 TSM,vm_mid_share_change,-2.1e-05,2024-12-31,Value Model suggestion
-TSM,vm_mid_rev_y10,366139097998.9112,2024-12-31,Value Model suggestion
-TSM,vm_mid_fair_value,123.197726,2024-12-31,"10y FCF x exit multiple, discounted at 9.5%, + net cash/share"
+TSM,vm_mid_rev_y10,367774858572.66016,2024-12-31,Value Model suggestion
+TSM,vm_mid_fair_value,123.748123,2024-12-31,"10y FCF x exit multiple, discounted at 9.5%, + net cash/share"
 TSM,vm_high_rev_growth,0.138584,2024-12-31,Value Model suggestion
 TSM,vm_high_fcf_margin,0.253275,2024-12-31,Value Model suggestion
 TSM,vm_high_exit_pfcf,20,2024-12-31,Value Model suggestion
 TSM,vm_high_share_change,-0.005021,2024-12-31,Value Model suggestion
-TSM,vm_high_rev_y10,498711949625.9518,2024-12-31,Value Model suggestion
-TSM,vm_high_fair_value,225.607098,2024-12-31,"10y FCF x exit multiple, discounted at 9.5%, + net cash/share"
-TSM,price_vs_mid_fv,2.41094,2026-10-19,price / mid fair value - 1
+TSM,vm_high_rev_y10,500939991780.7343,2024-12-31,Value Model suggestion
+TSM,vm_high_fair_value,226.615019,2024-12-31,"10y FCF x exit multiple, discounted at 9.5%, + net cash/share"
+TSM,price_vs_mid_fv,2.435042,2026-10-20,price / mid fair value - 1
 TSM,loss_maker_placeholder_margins,No,2024-12-31,Value Model
-TSM,data_flags,"Foreign private issuer (files 20-F): no quarterly XBRL, so TTM may equal the last fiscal year or come from Yahoo. | Reports under IFRS: some US-GAAP line items are missing or mapped approximately. | TTM figures from Yahoo (as of 2026-06-30); SEC XBRL TTM was older (2024-12-31). | Converted to USD at today's rate: statements TWD->USD x0.0306739 (history at today's rate, so growth is in local currency). Annual history from SEC XBRL (USD as filed); TTM and balance sheet from Yahoo, converted. | Value model uses manual overrides from overrides.csv: late.",,desk_fetch
+TSM,data_flags,"Foreign private issuer (files 20-F): no quarterly XBRL, so TTM may equal the last fiscal year or come from Yahoo. | Reports under IFRS: some US-GAAP line items are missing or mapped approximately. | TTM figures from Yahoo (as of 2026-06-30); SEC XBRL TTM was older (2024-12-31). | Converted to USD at today's rate: statements TWD->USD x0.0308109 (history at today's rate, so growth is in local currency). Annual history from SEC XBRL (USD as filed); TTM and balance sheet from Yahoo, converted. | Value model uses manual overrides from overrides.csv: late.",,desk_fetch
 ASML,name,ASML Holding N.V.,,Yahoo / SEC
 ASML,sector,Technology,,Yahoo
 ASML,industry,Semiconductor Equipment & Materials,,Yahoo
 ASML,currency,USD,,Yahoo
-ASML,price_snapshot,1647.12,2026-10-19,Yahoo Finance (delayed ~15 min)
+ASML,price_snapshot,1630.84,2026-10-20,Yahoo Finance (delayed ~15 min)
 ASML,shares_out,385417742,,SEC cover / Yahoo
-ASML,market_cap,634829271203.0399,2026-10-19,price x shares
+ASML,market_cap,628554670363.28,2026-10-20,price x shares
 ASML,last_fiscal_year_end,2025-12-31,2025-12-31,Yahoo Finance fundamentals (fallback: no SEC XBRL)
 ASML,years_of_history,4,2025-12-31,Yahoo Finance fundamentals (fallback: no SEC XBRL)
-ASML,revenue_ttm,39680443884.73034,2026-06-30,Yahoo Finance trailing 12 months (newer than SEC XBRL)
-ASML,net_income_ttm,11023138015.437126,2026-06-30,Yahoo Finance trailing 12 months (newer than SEC XBRL)
-ASML,fcf_ttm,11111647504.591942,2026-06-30,Yahoo Finance trailing 12 months (newer than SEC XBRL)
-ASML,cfo_ttm,12902279834.675789,2026-06-30,Yahoo Finance trailing 12 months (newer than SEC XBRL)
-ASML,capex_ttm,1790632330.083847,2026-06-30,Yahoo Finance trailing 12 months (newer than SEC XBRL)
+ASML,revenue_ttm,39653718554.9736,2026-06-30,Yahoo Finance trailing 12 months (newer than SEC XBRL)
+ASML,net_income_ttm,11015713778.972626,2026-06-30,Yahoo Finance trailing 12 months (newer than SEC XBRL)
+ASML,fcf_ttm,11104163655.757904,2026-06-30,Yahoo Finance trailing 12 months (newer than SEC XBRL)
+ASML,cfo_ttm,12893589970.111847,2026-06-30,Yahoo Finance trailing 12 months (newer than SEC XBRL)
+ASML,capex_ttm,1789426314.353943,2026-06-30,Yahoo Finance trailing 12 months (newer than SEC XBRL)
 ASML,sbc_ttm,,2026-06-30,Yahoo Finance trailing 12 months (newer than SEC XBRL)
-ASML,fcf_5y_avg,8571576800.125837,2025-12-31,Yahoo Finance fundamentals (fallback: no SEC XBRL)
-ASML,fcf_10y_avg,8571576800.125837,2025-12-31,Yahoo Finance fundamentals (fallback: no SEC XBRL)
-ASML,net_income_5y_avg,8605020582.354069,2025-12-31,Yahoo Finance fundamentals (fallback: no SEC XBRL)
+ASML,fcf_5y_avg,8565803724.169731,2025-12-31,Yahoo Finance fundamentals (fallback: no SEC XBRL)
+ASML,fcf_10y_avg,8565803724.169731,2025-12-31,Yahoo Finance fundamentals (fallback: no SEC XBRL)
+ASML,net_income_5y_avg,8599224981.546402,2025-12-31,Yahoo Finance fundamentals (fallback: no SEC XBRL)
 ASML,gross_margin_ttm,0.516312,2026-06-30,Yahoo Finance trailing 12 months (newer than SEC XBRL)
 ASML,gross_margin_5y,0.514839,2025-12-31,Yahoo Finance fundamentals (fallback: no SEC XBRL)
 ASML,gross_margin_10y,0.514839,2025-12-31,Yahoo Finance fundamentals (fallback: no SEC XBRL)
@@ -1342,11 +1342,11 @@ ASML,revenue_cagr_10y,,2025-12-31,Yahoo Finance fundamentals (fallback: no SEC X
 ASML,roic_ttm,1.03218,2026-06-30,TTM op. income x (1-21%) / latest invested capital
 ASML,roic_last_fy,0.80527,2025-12-31,Yahoo Finance fundamentals (fallback: no SEC XBRL)
 ASML,roic_5y_avg,0.75463,2025-12-31,Yahoo Finance fundamentals (fallback: no SEC XBRL)
-ASML,cash_and_st_investments,14304279020.79419,2026-06-30,Yahoo latest quarter (cash incl. short-term investments; SEC balance sheet older)
-ASML,total_debt,2204874782.684143,2026-06-30,Yahoo latest quarter (cash incl. short-term investments; SEC balance sheet older)
-ASML,net_cash,12099404238.110046,2026-06-30,Yahoo latest quarter (cash incl. short-term investments; SEC balance sheet older)
-ASML,net_cash_per_share,31.392961,2026-06-30,net cash / shares
-ASML,enterprise_value,622729866964.9299,2026-06-30,mcap + debt - cash
+ASML,cash_and_st_investments,14294644890.317383,2026-06-30,Yahoo latest quarter (cash incl. short-term investments; SEC balance sheet older)
+ASML,total_debt,2203389768.912354,2026-06-30,Yahoo latest quarter (cash incl. short-term investments; SEC balance sheet older)
+ASML,net_cash,12091255121.40503,2026-06-30,Yahoo latest quarter (cash incl. short-term investments; SEC balance sheet older)
+ASML,net_cash_per_share,31.371818,2026-06-30,net cash / shares
+ASML,enterprise_value,616463415241.875,2026-06-30,mcap + debt - cash
 ASML,current_ratio,,2025-12-31,Yahoo Finance fundamentals (fallback: no SEC XBRL)
 ASML,share_count_change_5y_total,,2025-12-31,Yahoo Finance fundamentals (fallback: no SEC XBRL)
 ASML,share_count_change_per_yr_5y,-0.00768,2025-12-31,Yahoo Finance fundamentals (fallback: no SEC XBRL)
@@ -1355,17 +1355,17 @@ ASML,dividends_paid_ttm,0,2026-06-30,Yahoo Finance trailing 12 months (newer tha
 ASML,dividends_paid_5y,0,2025-12-31,Yahoo Finance fundamentals (fallback: no SEC XBRL)
 ASML,buybacks_5y,0,2025-12-31,Yahoo Finance fundamentals (fallback: no SEC XBRL)
 ASML,dividend_yield,0.0,2026-06-30,TTM dividends / mcap
-ASML,pe_ttm,57.590613,2026-10-19,computed
-ASML,pe_5y_avg_earnings,73.774289,2026-10-19,computed
-ASML,pe_forward,31.062668,2026-10-19,computed
-ASML,ps_ttm,15.998543,2026-10-19,computed
-ASML,ev_sales,15.693621,2026-10-19,computed
-ASML,pfcf_ttm,57.131876,2026-10-19,computed
-ASML,pfcf_5y_avg,74.062134,2026-10-19,computed
+ASML,pe_ttm,57.059822,2026-10-20,computed
+ASML,pe_5y_avg_earnings,73.09434,2026-10-20,computed
+ASML,pe_forward,30.732274,2026-10-20,computed
+ASML,ps_ttm,15.85109,2026-10-20,computed
+ASML,ev_sales,15.546169,2026-10-20,computed
+ASML,pfcf_ttm,56.605314,2026-10-20,computed
+ASML,pfcf_5y_avg,73.379532,2026-10-20,computed
 ASML,piotroski_f,,2025-12-31,"Piotroski 2000, 0/9 tests computable"
 ASML,altman_z,,2025-12-31,Altman 1968 original weights
 ASML,beneish_m,,2025-12-31,Beneish 1999 8-var; 0 index(es) missing set to 1.0
-ASML,p1_pe_5y,73.774289,2025-12-31,8 Pillars input (below 22.5)
+ASML,p1_pe_5y,73.09434,2025-12-31,8 Pillars input (below 22.5)
 ASML,p1_pe_5y_pass,FAIL,2025-12-31,8 Pillars
 ASML,p2_roic_5y,0.75463,2025-12-31,8 Pillars input (above 0.09)
 ASML,p2_roic_5y_pass,PASS,2025-12-31,8 Pillars
@@ -1379,18 +1379,18 @@ ASML,p6_rev_growth_5y,,2025-12-31,8 Pillars input (above 0.0)
 ASML,p6_rev_growth_5y_pass,n/a,2025-12-31,8 Pillars
 ASML,p7_ltliab_over_fcf5,,2025-12-31,8 Pillars input (below 5)
 ASML,p7_ltliab_over_fcf5_pass,n/a,2025-12-31,8 Pillars
-ASML,p8_pfcf_5y,74.062134,2025-12-31,8 Pillars input (below 22.5)
+ASML,p8_pfcf_5y,73.379532,2025-12-31,8 Pillars input (below 22.5)
 ASML,p8_pfcf_5y_pass,FAIL,2025-12-31,8 Pillars
 ASML,pillars_passed,1/3,2025-12-31,8 Pillars (computable)
 ASML,eps_est_current_fy,41.20963,2026-12-31,Yahoo earningsTrend
 ASML,eps_est_next_fy,55.92932,2026-12-31,Yahoo earningsTrend
 ASML,eps_growth_current_fy,0.6677,2026-12-31,Yahoo earningsTrend
 ASML,eps_growth_next_fy,0.3572,2026-12-31,Yahoo earningsTrend
-ASML,revenue_est_current_fy,49935755825.43149,2026-12-31,Yahoo earningsTrend
-ASML,revenue_est_next_fy,64264299369.98737,2026-12-31,Yahoo earningsTrend
+ASML,revenue_est_current_fy,49902123400.729706,2026-12-31,Yahoo earningsTrend
+ASML,revenue_est_next_fy,64221016472.315216,2026-12-31,Yahoo earningsTrend
 ASML,revenue_growth_current_fy,0.3609,2026-12-31,Yahoo earningsTrend
 ASML,revenue_growth_next_fy,0.2869,2026-12-31,Yahoo earningsTrend
-ASML,analyst_target_mean,2148.717,2026-12-31,Yahoo earningsTrend
+ASML,analyst_target_mean,2147.2698,2026-12-31,Yahoo earningsTrend
 ASML,analyst_count,17,2026-12-31,Yahoo earningsTrend
 ASML,next_earnings_date,2026-10-14,,Yahoo calendar
 ASML,ex_dividend_date,2026-10-27,,Yahoo calendar
@@ -1417,13 +1417,13 @@ ASML,holder_9_pct,0.005,2026-06-30,Yahoo Finance (13F filings via Yahoo)
 ASML,holder_10_name,Morgan Stanley,2026-06-30,Yahoo Finance (13F filings via Yahoo)
 ASML,holder_10_pct,0.0046,2026-06-30,Yahoo Finance (13F filings via Yahoo)
 ASML,short_pct_float,0.0038,2026-09-30,Yahoo (FINRA)
-ASML,px_hi52,1989.439941,2026-10-19,Yahoo daily closes
-ASML,px_lo52,966.570007,2026-10-19,Yahoo daily closes
-ASML,px_ath,1989.439941,2026-10-19,Yahoo daily closes
-ASML,px_ma50,1737.752803,2026-10-19,Yahoo daily closes
-ASML,px_ma200,1580.1024,2026-10-19,Yahoo daily closes
-ASML,px_ret30,-0.019525,2026-10-19,Yahoo daily closes
-ASML,px_cagr5,0.158819,2026-10-19,Yahoo daily closes
+ASML,px_hi52,1989.439941,2026-10-20,Yahoo daily closes
+ASML,px_lo52,966.570007,2026-10-20,Yahoo daily closes
+ASML,px_ath,1989.439941,2026-10-20,Yahoo daily closes
+ASML,px_ma50,1735.700002,2026-10-20,Yahoo daily closes
+ASML,px_ma200,1582.4377,2026-10-20,Yahoo daily closes
+ASML,px_ret30,-0.029216,2026-10-20,Yahoo daily closes
+ASML,px_cagr5,0.152816,2026-10-20,Yahoo daily closes
 ASML,g_cash_debt_score,5.0,2025-12-31,workbook Thresholds ladder (1-5)
 ASML,g_cash_debt_grade,A,2025-12-31,A>=4.5 B>=3.75 C>=3 D>=2
 ASML,g_revenue_margin_score,4.5,2025-12-31,workbook Thresholds ladder (1-5)
@@ -1453,40 +1453,40 @@ ASML,vm_low_fcf_margin,0.24,2025-12-31,Value Model suggestion
 ASML,vm_low_exit_pfcf,14,2025-12-31,Value Model suggestion
 ASML,vm_low_share_change,0.01,2025-12-31,Value Model suggestion
 ASML,vm_low_rev_y10,89363300057.48845,2025-12-31,Value Model suggestion
-ASML,vm_low_fair_value,315.977855,2025-12-31,"10y FCF x exit multiple, discounted at 9.5%, + net cash/share"
+ASML,vm_low_fair_value,315.956711,2025-12-31,"10y FCF x exit multiple, discounted at 9.5%, + net cash/share"
 ASML,vm_mid_rev_growth,0.09,2025-12-31,Value Model suggestion
 ASML,vm_mid_fcf_margin,0.28,2025-12-31,Value Model suggestion
 ASML,vm_mid_exit_pfcf,17,2025-12-31,Value Model suggestion
 ASML,vm_mid_share_change,0,2025-12-31,Value Model suggestion
 ASML,vm_mid_rev_y10,118131447362.14674,2025-12-31,Value Model suggestion
-ASML,vm_mid_fair_value,620.100481,2025-12-31,"10y FCF x exit multiple, discounted at 9.5%, + net cash/share"
+ASML,vm_mid_fair_value,620.079337,2025-12-31,"10y FCF x exit multiple, discounted at 9.5%, + net cash/share"
 ASML,vm_high_rev_growth,0.12,2025-12-31,Value Model suggestion
 ASML,vm_high_fcf_margin,0.3,2025-12-31,Value Model suggestion
 ASML,vm_high_exit_pfcf,20,2025-12-31,Value Model suggestion
 ASML,vm_high_share_change,-0.005,2025-12-31,Value Model suggestion
 ASML,vm_high_rev_y10,154981825596.3762,2025-12-31,Value Model suggestion
-ASML,vm_high_fair_value,1054.98835,2025-12-31,"10y FCF x exit multiple, discounted at 9.5%, + net cash/share"
-ASML,price_vs_mid_fv,1.656215,2026-10-19,price / mid fair value - 1
+ASML,vm_high_fair_value,1054.967206,2025-12-31,"10y FCF x exit multiple, discounted at 9.5%, + net cash/share"
+ASML,price_vs_mid_fv,1.630051,2026-10-20,price / mid fair value - 1
 ASML,loss_maker_placeholder_margins,No,2025-12-31,Value Model
-ASML,data_flags,"No SEC XBRL annual data: using Yahoo fallbacks (4-5 years at most). | Only 4 usable fiscal years: 5/10-year averages are thin or n/a. | TTM figures from Yahoo (as of 2026-06-30); SEC XBRL TTM was older (none). | Converted to USD at today's rate: statements EUR->USD x1.12322 (history at today's rate, so growth is in local currency). | Value model uses manual overrides from overrides.csv: fcfm,g,late,rev0.",,desk_fetch
+ASML,data_flags,"No SEC XBRL annual data: using Yahoo fallbacks (4-5 years at most). | Only 4 usable fiscal years: 5/10-year averages are thin or n/a. | TTM figures from Yahoo (as of 2026-06-30); SEC XBRL TTM was older (none). | Converted to USD at today's rate: statements EUR->USD x1.12246 (history at today's rate, so growth is in local currency). | Value model uses manual overrides from overrides.csv: fcfm,g,late,rev0.",,desk_fetch
 HYNIX,name,SK hynix Inc.,,Yahoo / SEC
 HYNIX,sector,Technology,,Yahoo
 HYNIX,industry,Semiconductors,,Yahoo
 HYNIX,currency,KRW,,Yahoo
-HYNIX,price_snapshot,917.93556,2026-10-20,Yahoo Finance (delayed ~15 min)
+HYNIX,price_snapshot,976.891348,2026-10-21,Yahoo Finance (delayed ~15 min)
 HYNIX,shares_out,728866596,,SEC cover / Yahoo
-HYNIX,market_cap,669052566788.836,2026-10-20,price x shares
+HYNIX,market_cap,712023471155.268,2026-10-21,price x shares
 HYNIX,last_fiscal_year_end,2025-12-31,2025-12-31,Yahoo Finance fundamentals (fallback: no SEC XBRL)
 HYNIX,years_of_history,4,2025-12-31,Yahoo Finance fundamentals (fallback: no SEC XBRL)
-HYNIX,revenue_ttm,142449905143.53033,2026-06-30,Yahoo Finance trailing 12 months (newer than SEC XBRL)
-HYNIX,net_income_ttm,121963733331.60066,2026-06-30,Yahoo Finance trailing 12 months (newer than SEC XBRL)
-HYNIX,fcf_ttm,68094856696.49043,2026-06-30,Yahoo Finance trailing 12 months (newer than SEC XBRL)
-HYNIX,cfo_ttm,95578090582.23991,2026-06-30,Yahoo Finance trailing 12 months (newer than SEC XBRL)
-HYNIX,capex_ttm,27483233885.749477,2026-06-30,Yahoo Finance trailing 12 months (newer than SEC XBRL)
+HYNIX,revenue_ttm,142812316078.37573,2026-06-30,Yahoo Finance trailing 12 months (newer than SEC XBRL)
+HYNIX,net_income_ttm,122274024802.62274,2026-06-30,Yahoo Finance trailing 12 months (newer than SEC XBRL)
+HYNIX,fcf_ttm,68268098796.22137,2026-06-30,Yahoo Finance trailing 12 months (newer than SEC XBRL)
+HYNIX,cfo_ttm,95821253574.33699,2026-06-30,Yahoo Finance trailing 12 months (newer than SEC XBRL)
+HYNIX,capex_ttm,27553154778.115627,2026-06-30,Yahoo Finance trailing 12 months (newer than SEC XBRL)
 HYNIX,sbc_ttm,,2026-06-30,Yahoo Finance trailing 12 months (newer than SEC XBRL)
-HYNIX,fcf_5y_avg,5357198058.177368,2025-12-31,Yahoo Finance fundamentals (fallback: no SEC XBRL)
-HYNIX,fcf_10y_avg,5357198058.177368,2025-12-31,Yahoo Finance fundamentals (fallback: no SEC XBRL)
-HYNIX,net_income_5y_avg,10509402054.367819,2025-12-31,Yahoo Finance fundamentals (fallback: no SEC XBRL)
+HYNIX,fcf_5y_avg,5370827461.120527,2025-12-31,Yahoo Finance fundamentals (fallback: no SEC XBRL)
+HYNIX,fcf_10y_avg,5370827461.120527,2025-12-31,Yahoo Finance fundamentals (fallback: no SEC XBRL)
+HYNIX,net_income_5y_avg,10536139328.916033,2025-12-31,Yahoo Finance fundamentals (fallback: no SEC XBRL)
 HYNIX,gross_margin_ttm,0.762678,2026-06-30,Yahoo Finance trailing 12 months (newer than SEC XBRL)
 HYNIX,gross_margin_5y,0.354734,2025-12-31,Yahoo Finance fundamentals (fallback: no SEC XBRL)
 HYNIX,gross_margin_10y,0.354734,2025-12-31,Yahoo Finance fundamentals (fallback: no SEC XBRL)
@@ -1505,11 +1505,11 @@ HYNIX,revenue_cagr_10y,,2025-12-31,Yahoo Finance fundamentals (fallback: no SEC 
 HYNIX,roic_ttm,1.895261,2026-06-30,TTM op. income x (1-21%) / latest invested capital
 HYNIX,roic_last_fy,0.286098,2025-12-31,Yahoo Finance fundamentals (fallback: no SEC XBRL)
 HYNIX,roic_5y_avg,0.12082,2025-12-31,Yahoo Finance fundamentals (fallback: no SEC XBRL)
-HYNIX,cash_and_st_investments,66251738475.87891,2026-06-30,Yahoo latest quarter (cash incl. short-term investments; SEC balance sheet older)
-HYNIX,total_debt,15898688005.185059,2026-06-30,Yahoo latest quarter (cash incl. short-term investments; SEC balance sheet older)
-HYNIX,net_cash,50353050470.69385,2026-06-30,Yahoo latest quarter (cash incl. short-term investments; SEC balance sheet older)
-HYNIX,net_cash_per_share,69.084042,2026-06-30,net cash / shares
-HYNIX,enterprise_value,618699516318.1422,2026-06-30,mcap + debt - cash
+HYNIX,cash_and_st_investments,66420291445.09277,2026-06-30,Yahoo latest quarter (cash incl. short-term investments; SEC balance sheet older)
+HYNIX,total_debt,15939136318.414673,2026-06-30,Yahoo latest quarter (cash incl. short-term investments; SEC balance sheet older)
+HYNIX,net_cash,50481155126.6781,2026-06-30,Yahoo latest quarter (cash incl. short-term investments; SEC balance sheet older)
+HYNIX,net_cash_per_share,69.259801,2026-06-30,net cash / shares
+HYNIX,enterprise_value,661542316028.5898,2026-06-30,mcap + debt - cash
 HYNIX,current_ratio,,2025-12-31,Yahoo Finance fundamentals (fallback: no SEC XBRL)
 HYNIX,share_count_change_5y_total,,2025-12-31,Yahoo Finance fundamentals (fallback: no SEC XBRL)
 HYNIX,share_count_change_per_yr_5y,0.011089,2025-12-31,Yahoo Finance fundamentals (fallback: no SEC XBRL)
@@ -1518,17 +1518,17 @@ HYNIX,dividends_paid_ttm,0,2026-06-30,Yahoo Finance trailing 12 months (newer th
 HYNIX,dividends_paid_5y,0,2025-12-31,Yahoo Finance fundamentals (fallback: no SEC XBRL)
 HYNIX,buybacks_5y,0,2025-12-31,Yahoo Finance fundamentals (fallback: no SEC XBRL)
 HYNIX,dividend_yield,0.0,2026-06-30,TTM dividends / mcap
-HYNIX,pe_ttm,5.485668,2026-10-20,computed
-HYNIX,pe_5y_avg_earnings,63.662287,2026-10-20,computed
-HYNIX,pe_forward,2.736747,2026-10-20,computed
-HYNIX,ps_ttm,4.696757,2026-10-20,computed
-HYNIX,ev_sales,4.343278,2026-10-20,computed
-HYNIX,pfcf_ttm,9.825303,2026-10-20,computed
-HYNIX,pfcf_5y_avg,124.888526,2026-10-20,computed
+HYNIX,pe_ttm,5.823178,2026-10-21,computed
+HYNIX,pe_5y_avg_earnings,67.579162,2026-10-21,computed
+HYNIX,pe_forward,2.903106,2026-10-21,computed
+HYNIX,ps_ttm,4.985729,2026-10-21,computed
+HYNIX,ev_sales,4.63225,2026-10-21,computed
+HYNIX,pfcf_ttm,10.429813,2026-10-21,computed
+HYNIX,pfcf_5y_avg,132.572397,2026-10-21,computed
 HYNIX,piotroski_f,,2025-12-31,"Piotroski 2000, 0/9 tests computable"
 HYNIX,altman_z,,2025-12-31,Altman 1968 original weights
 HYNIX,beneish_m,,2025-12-31,Beneish 1999 8-var; 0 index(es) missing set to 1.0
-HYNIX,p1_pe_5y,63.662287,2025-12-31,8 Pillars input (below 22.5)
+HYNIX,p1_pe_5y,67.579162,2025-12-31,8 Pillars input (below 22.5)
 HYNIX,p1_pe_5y_pass,FAIL,2025-12-31,8 Pillars
 HYNIX,p2_roic_5y,0.12082,2025-12-31,8 Pillars input (above 0.09)
 HYNIX,p2_roic_5y_pass,PASS,2025-12-31,8 Pillars
@@ -1542,31 +1542,31 @@ HYNIX,p6_rev_growth_5y,,2025-12-31,8 Pillars input (above 0.0)
 HYNIX,p6_rev_growth_5y_pass,n/a,2025-12-31,8 Pillars
 HYNIX,p7_ltliab_over_fcf5,,2025-12-31,8 Pillars input (below 5)
 HYNIX,p7_ltliab_over_fcf5_pass,n/a,2025-12-31,8 Pillars
-HYNIX,p8_pfcf_5y,124.888526,2025-12-31,8 Pillars input (below 22.5)
+HYNIX,p8_pfcf_5y,132.572397,2025-12-31,8 Pillars input (below 22.5)
 HYNIX,p8_pfcf_5y_pass,FAIL,2025-12-31,8 Pillars
 HYNIX,pillars_passed,1/3,2025-12-31,8 Pillars (computable)
-HYNIX,eps_est_current_fy,266.947159,2026-12-31,Yahoo earningsTrend
-HYNIX,eps_est_next_fy,352.235067,2026-12-31,Yahoo earningsTrend
+HYNIX,eps_est_current_fy,267.626307,2026-12-31,Yahoo earningsTrend
+HYNIX,eps_est_next_fy,353.131199,2026-12-31,Yahoo earningsTrend
 HYNIX,eps_growth_current_fy,4.8719,2026-12-31,Yahoo earningsTrend
 HYNIX,eps_growth_next_fy,0.3195,2026-12-31,Yahoo earningsTrend
-HYNIX,revenue_est_current_fy,258976125468.19202,2026-12-31,Yahoo earningsTrend
-HYNIX,revenue_est_next_fy,399533055330.98016,2026-12-31,Yahoo earningsTrend
+HYNIX,revenue_est_current_fy,259634994139.52597,2026-12-31,Yahoo earningsTrend
+HYNIX,revenue_est_next_fy,400549518963.84985,2026-12-31,Yahoo earningsTrend
 HYNIX,revenue_growth_current_fy,2.5402,2026-12-31,Yahoo earningsTrend
 HYNIX,revenue_growth_next_fy,0.5427,2026-12-31,Yahoo earningsTrend
-HYNIX,analyst_target_mean,2331.577406,2026-12-31,Yahoo earningsTrend
+HYNIX,analyst_target_mean,2337.50924,2026-12-31,Yahoo earningsTrend
 HYNIX,analyst_count,38,2026-12-31,Yahoo earningsTrend
 HYNIX,next_earnings_date,2026-10-27,,Yahoo calendar
 HYNIX,ex_dividend_date,2026-08-28,,Yahoo calendar
-HYNIX,institutional_pct,0.39098,,Yahoo Finance (13F filings via Yahoo)
+HYNIX,institutional_pct,0.39141,,Yahoo Finance (13F filings via Yahoo)
 HYNIX,insider_pct,0.20173,,Yahoo Finance (13F filings via Yahoo)
 HYNIX,short_pct_float,,,Yahoo (FINRA)
-HYNIX,px_hi52,2198.075389,2026-10-20,Yahoo daily closes
-HYNIX,px_lo52,297.820766,2026-10-20,Yahoo daily closes
-HYNIX,px_ath,2198.075389,2026-10-20,Yahoo daily closes
-HYNIX,px_ma50,1242.036844,2026-10-20,Yahoo daily closes
-HYNIX,px_ma200,1102.27946,2026-10-20,Yahoo daily closes
-HYNIX,px_ret30,-0.343565,2026-10-20,Yahoo daily closes
-HYNIX,px_cagr5,0.656616,2026-10-20,Yahoo daily closes
+HYNIX,px_hi52,2203.667576,2026-10-21,Yahoo daily closes
+HYNIX,px_lo52,310.657488,2026-10-21,Yahoo daily closes
+HYNIX,px_ath,2203.667576,2026-10-21,Yahoo daily closes
+HYNIX,px_ma50,1239.610195,2026-10-21,Yahoo daily closes
+HYNIX,px_ma200,1107.794033,2026-10-21,Yahoo daily closes
+HYNIX,px_ret30,-0.307281,2026-10-21,Yahoo daily closes
+HYNIX,px_cagr5,0.675831,2026-10-21,Yahoo daily closes
 HYNIX,g_cash_debt_score,5.0,2025-12-31,workbook Thresholds ladder (1-5)
 HYNIX,g_cash_debt_grade,A,2025-12-31,A>=4.5 B>=3.75 C>=3 D>=2
 HYNIX,g_revenue_margin_score,5.0,2025-12-31,workbook Thresholds ladder (1-5)
@@ -1595,30 +1595,30 @@ HYNIX,vm_low_rev_growth,0.03,2025-12-31,Value Model suggestion
 HYNIX,vm_low_fcf_margin,0.08,2025-12-31,Value Model suggestion
 HYNIX,vm_low_exit_pfcf,10.0,2025-12-31,Value Model suggestion
 HYNIX,vm_low_share_change,0.01,2025-12-31,Value Model suggestion
-HYNIX,vm_low_rev_y10,191440760758.40695,2025-12-31,Value Model suggestion
-HYNIX,vm_low_fair_value,145.841648,2025-12-31,"10y FCF x exit multiple, discounted at 9.5%, + net cash/share"
+HYNIX,vm_low_rev_y10,191927810749.79907,2025-12-31,Value Model suggestion
+HYNIX,vm_low_fair_value,146.212688,2025-12-31,"10y FCF x exit multiple, discounted at 9.5%, + net cash/share"
 HYNIX,vm_mid_rev_growth,0.05,2025-12-31,Value Model suggestion
 HYNIX,vm_mid_fcf_margin,0.12,2025-12-31,Value Model suggestion
 HYNIX,vm_mid_exit_pfcf,12.0,2025-12-31,Value Model suggestion
 HYNIX,vm_mid_share_change,0,2025-12-31,Value Model suggestion
-HYNIX,vm_mid_rev_y10,232035885073.25287,2025-12-31,Value Model suggestion
-HYNIX,vm_mid_fair_value,254.065589,2025-12-31,"10y FCF x exit multiple, discounted at 9.5%, + net cash/share"
+HYNIX,vm_mid_rev_y10,232626214297.70792,2025-12-31,Value Model suggestion
+HYNIX,vm_mid_fair_value,254.711965,2025-12-31,"10y FCF x exit multiple, discounted at 9.5%, + net cash/share"
 HYNIX,vm_high_rev_growth,0.08,2025-12-31,Value Model suggestion
 HYNIX,vm_high_fcf_margin,0.18,2025-12-31,Value Model suggestion
 HYNIX,vm_high_exit_pfcf,14.0,2025-12-31,Value Model suggestion
 HYNIX,vm_high_share_change,-0.005,2025-12-31,Value Model suggestion
-HYNIX,vm_high_rev_y10,307538661073.5052,2025-12-31,Value Model suggestion
-HYNIX,vm_high_fair_value,520.191715,2025-12-31,"10y FCF x exit multiple, discounted at 9.5%, + net cash/share"
-HYNIX,price_vs_mid_fv,2.612987,2026-10-20,price / mid fair value - 1
+HYNIX,vm_high_rev_y10,308321079100.0279,2025-12-31,Value Model suggestion
+HYNIX,vm_high_fair_value,521.515149,2025-12-31,"10y FCF x exit multiple, discounted at 9.5%, + net cash/share"
+HYNIX,price_vs_mid_fv,2.835279,2026-10-21,price / mid fair value - 1
 HYNIX,loss_maker_placeholder_margins,No,2025-12-31,Value Model
-HYNIX,data_flags,"No SEC XBRL annual data: using Yahoo fallbacks (4-5 years at most). | Only 4 usable fiscal years: 5/10-year averages are thin or n/a. | TTM figures from Yahoo (as of 2026-06-30); SEC XBRL TTM was older (none). | Converted to USD at today's rate: statements KRW->USD x0.000753023, price KRW->USD x0.000753023 (history at today's rate, so growth is in local currency). | Data symbol 000660.KS (Yahoo); no SEC filings: THIN DATA (about 4 yrs, Yahoo fundamentals only). | Value model uses manual overrides from overrides.csv: fcfm,g,late,mult.",,desk_fetch
+HYNIX,data_flags,"No SEC XBRL annual data: using Yahoo fallbacks (4-5 years at most). | Only 4 usable fiscal years: 5/10-year averages are thin or n/a. | TTM figures from Yahoo (as of 2026-06-30); SEC XBRL TTM was older (none). | Converted to USD at today's rate: statements KRW->USD x0.000754939, price KRW->USD x0.000754939 (history at today's rate, so growth is in local currency). | Data symbol 000660.KS (Yahoo); no SEC filings: THIN DATA (about 4 yrs, Yahoo fundamentals only). | Value model uses manual overrides from overrides.csv: fcfm,g,late,mult.",,desk_fetch
 SNDK,name,Sandisk Corporation,,Yahoo / SEC
 SNDK,sector,Technology,,Yahoo
 SNDK,industry,Computer Hardware,,Yahoo
 SNDK,currency,USD,,Yahoo
-SNDK,price_snapshot,1371.12,2026-10-19,Yahoo Finance (delayed ~15 min)
+SNDK,price_snapshot,1365.38,2026-10-20,Yahoo Finance (delayed ~15 min)
 SNDK,shares_out,146419001,,SEC cover / Yahoo
-SNDK,market_cap,200758020651.12,2026-10-19,price x shares
+SNDK,market_cap,199917575585.38,2026-10-20,price x shares
 SNDK,last_fiscal_year_end,2026-07-03,2026-07-03,SEC EDGAR companyfacts (XBRL)
 SNDK,years_of_history,4,2026-07-03,SEC EDGAR companyfacts (XBRL)
 SNDK,revenue_ttm,20248000000,2026-07-03,SEC 10-Q roll-forward (last FY + YTD - prior YTD)
@@ -1652,7 +1652,7 @@ SNDK,cash_and_st_investments,4762000000,2026-07-03,SEC latest balance sheet
 SNDK,total_debt,0,2026-07-03,SEC latest balance sheet
 SNDK,net_cash,4762000000,2026-07-03,SEC latest balance sheet
 SNDK,net_cash_per_share,32.523101,2026-07-03,net cash / shares
-SNDK,enterprise_value,195996020651.12,2026-07-03,mcap + debt - cash
+SNDK,enterprise_value,195155575585.38,2026-07-03,mcap + debt - cash
 SNDK,current_ratio,2.289912,2026-07-03,SEC EDGAR companyfacts (XBRL)
 SNDK,share_count_change_5y_total,,2026-07-03,SEC EDGAR companyfacts (XBRL)
 SNDK,share_count_change_per_yr_5y,0.022479,2026-07-03,SEC EDGAR companyfacts (XBRL)
@@ -1661,17 +1661,17 @@ SNDK,dividends_paid_ttm,0,2026-07-03,SEC 10-Q roll-forward (last FY + YTD - prio
 SNDK,dividends_paid_5y,0,2026-07-03,SEC EDGAR companyfacts (XBRL)
 SNDK,buybacks_5y,4524000000,2026-07-03,SEC EDGAR companyfacts (XBRL)
 SNDK,dividend_yield,0.0,2026-07-03,TTM dividends / mcap
-SNDK,pe_ttm,17.559522,2026-10-19,computed
-SNDK,pe_5y_avg_earnings,115.097045,2026-10-19,computed
-SNDK,pe_forward,5.945417,2026-10-19,computed
-SNDK,ps_ttm,9.914956,2026-10-19,computed
-SNDK,ev_sales,9.679772,2026-10-19,computed
-SNDK,pfcf_ttm,17.466332,2026-10-19,computed
-SNDK,pfcf_5y_avg,80.569086,2026-10-19,computed
+SNDK,pe_ttm,17.486012,2026-10-20,computed
+SNDK,pe_5y_avg_earnings,114.615207,2026-10-20,computed
+SNDK,pe_forward,5.916909,2026-10-20,computed
+SNDK,ps_ttm,9.873448,2026-10-20,computed
+SNDK,ev_sales,9.638264,2026-10-20,computed
+SNDK,pfcf_ttm,17.393212,2026-10-20,computed
+SNDK,pfcf_5y_avg,80.231795,2026-10-20,computed
 SNDK,piotroski_f,7,2026-07-03,"Piotroski 2000, 9/9 tests computable"
-SNDK,altman_z,21.489953,2026-07-03,Altman 1968 original weights
+SNDK,altman_z,21.415479,2026-07-03,Altman 1968 original weights
 SNDK,beneish_m,-0.728879,2026-07-03,Beneish 1999 8-var; 0 index(es) missing set to 1.0
-SNDK,p1_pe_5y,115.097045,2026-07-03,8 Pillars input (below 22.5)
+SNDK,p1_pe_5y,114.615207,2026-07-03,8 Pillars input (below 22.5)
 SNDK,p1_pe_5y_pass,FAIL,2026-07-03,8 Pillars
 SNDK,p2_roic_5y,0.174864,2026-07-03,8 Pillars input (above 0.09)
 SNDK,p2_roic_5y_pass,PASS,2026-07-03,8 Pillars
@@ -1685,7 +1685,7 @@ SNDK,p6_rev_growth_5y,,2026-07-03,8 Pillars input (above 0.0)
 SNDK,p6_rev_growth_5y_pass,n/a,2026-07-03,8 Pillars
 SNDK,p7_ltliab_over_fcf5,0.477576,2026-07-03,8 Pillars input (below 5)
 SNDK,p7_ltliab_over_fcf5_pass,PASS,2026-07-03,8 Pillars
-SNDK,p8_pfcf_5y,80.569086,2026-07-03,8 Pillars input (below 22.5)
+SNDK,p8_pfcf_5y,80.231795,2026-07-03,8 Pillars input (below 22.5)
 SNDK,p8_pfcf_5y_pass,FAIL,2026-07-03,8 Pillars
 SNDK,pillars_passed,2/4,2026-07-03,8 Pillars (computable)
 SNDK,eps_est_current_fy,214.82326,2027-06-30,Yahoo earningsTrend
@@ -1700,7 +1700,7 @@ SNDK,analyst_target_mean,2173.0,2027-06-30,Yahoo earningsTrend
 SNDK,analyst_count,24,2027-06-30,Yahoo earningsTrend
 SNDK,next_earnings_date,2026-10-29,,Yahoo calendar
 SNDK,ex_dividend_date,,,Yahoo calendar
-SNDK,institutional_pct,0.82082,2026-06-30,Yahoo Finance (13F filings via Yahoo)
+SNDK,institutional_pct,0.82116,2026-06-30,Yahoo Finance (13F filings via Yahoo)
 SNDK,insider_pct,0.01079,2026-06-30,Yahoo Finance (13F filings via Yahoo)
 SNDK,holder_1_name,Blackrock Inc.,2026-06-30,Yahoo Finance (13F filings via Yahoo)
 SNDK,holder_1_pct,0.0712,2026-06-30,Yahoo Finance (13F filings via Yahoo)
@@ -1723,13 +1723,13 @@ SNDK,holder_9_pct,0.0206,2026-06-30,Yahoo Finance (13F filings via Yahoo)
 SNDK,holder_10_name,Situational Awareness LP                          ,2026-06-30,Yahoo Finance (13F filings via Yahoo)
 SNDK,holder_10_pct,0.0173,2026-06-30,Yahoo Finance (13F filings via Yahoo)
 SNDK,short_pct_float,0.0334,2026-09-30,Yahoo (FINRA)
-SNDK,px_hi52,2335.0,2026-10-19,Yahoo daily closes
-SNDK,px_lo52,140.160004,2026-10-19,Yahoo daily closes
-SNDK,px_ath,2335.0,2026-10-19,Yahoo daily closes
-SNDK,px_ma50,1596.229094,2026-10-19,Yahoo daily closes
-SNDK,px_ma200,1216.379922,2026-10-19,Yahoo daily closes
-SNDK,px_ret30,-0.234789,2026-10-19,Yahoo daily closes
-SNDK,px_cagr5,,2026-10-19,Yahoo daily closes
+SNDK,px_hi52,2335.0,2026-10-20,Yahoo daily closes
+SNDK,px_lo52,146.949997,2026-10-20,Yahoo daily closes
+SNDK,px_ath,2335.0,2026-10-20,Yahoo daily closes
+SNDK,px_ma50,1598.778293,2026-10-20,Yahoo daily closes
+SNDK,px_ma200,1221.830622,2026-10-20,Yahoo daily closes
+SNDK,px_ret30,-0.237993,2026-10-20,Yahoo daily closes
+SNDK,px_cagr5,,2026-10-20,Yahoo daily closes
 SNDK,g_cash_debt_score,5.0,2026-07-03,workbook Thresholds ladder (1-5)
 SNDK,g_cash_debt_grade,A,2026-07-03,A>=4.5 B>=3.75 C>=3 D>=2
 SNDK,g_revenue_margin_score,5.0,2026-07-03,workbook Thresholds ladder (1-5)
@@ -1772,16 +1772,16 @@ SNDK,vm_high_exit_pfcf,20,2026-07-03,Value Model suggestion
 SNDK,vm_high_share_change,-0.005,2026-07-03,Value Model suggestion
 SNDK,vm_high_rev_y10,81914453032.6137,2026-07-03,Value Model suggestion
 SNDK,vm_high_fair_value,517.487619,2026-07-03,"10y FCF x exit multiple, discounted at 9.5%, + net cash/share"
-SNDK,price_vs_mid_fv,4.321166,2026-10-19,price / mid fair value - 1
+SNDK,price_vs_mid_fv,4.29889,2026-10-20,price / mid fair value - 1
 SNDK,loss_maker_placeholder_margins,No,2026-07-03,Value Model
 SNDK,data_flags,Only 4 fiscal years of history: 5/10-year averages are thin or n/a.,,desk_fetch
 INTC,name,Intel Corporation,,Yahoo / SEC
 INTC,sector,Technology,,Yahoo
 INTC,industry,Semiconductors,,Yahoo
 INTC,currency,USD,,Yahoo
-INTC,price_snapshot,92.03,2026-10-19,Yahoo Finance (delayed ~15 min)
+INTC,price_snapshot,91.69,2026-10-20,Yahoo Finance (delayed ~15 min)
 INTC,shares_out,5044000000,,SEC cover / Yahoo
-INTC,market_cap,464199320000.0,2026-10-19,price x shares
+INTC,market_cap,462484360000.0,2026-10-20,price x shares
 INTC,last_fiscal_year_end,2025-12-27,2025-12-27,SEC EDGAR companyfacts (XBRL)
 INTC,years_of_history,11,2025-12-27,SEC EDGAR companyfacts (XBRL)
 INTC,revenue_ttm,57032000000,2026-06-27,SEC 10-Q roll-forward (last FY + YTD - prior YTD)
@@ -1815,7 +1815,7 @@ INTC,cash_and_st_investments,29727000000,2026-06-27,SEC latest balance sheet
 INTC,total_debt,50537000000,2026-06-27,SEC latest balance sheet
 INTC,net_cash,-20810000000,2026-06-27,SEC latest balance sheet
 INTC,net_cash_per_share,-4.125694,2026-06-27,net cash / shares
-INTC,enterprise_value,485009320000.0,2026-06-27,mcap + debt - cash
+INTC,enterprise_value,483294360000.0,2026-06-27,mcap + debt - cash
 INTC,current_ratio,2.017039,2025-12-27,SEC EDGAR companyfacts (XBRL)
 INTC,share_count_change_5y_total,0.070416,2025-12-27,SEC EDGAR companyfacts (XBRL)
 INTC,share_count_change_per_yr_5y,0.013702,2025-12-27,SEC EDGAR companyfacts (XBRL)
@@ -1824,17 +1824,17 @@ INTC,dividends_paid_ttm,0,2026-06-27,SEC 10-Q roll-forward (last FY + YTD - prio
 INTC,dividends_paid_5y,16328000000,2025-12-27,SEC EDGAR companyfacts (XBRL)
 INTC,buybacks_5y,2415000000,2025-12-27,SEC EDGAR companyfacts (XBRL)
 INTC,dividend_yield,0.0,2026-06-27,TTM dividends / mcap
-INTC,pe_ttm,,2026-10-19,computed
-INTC,pe_5y_avg_earnings,220.041392,2026-10-19,computed
-INTC,pe_forward,46.075308,2026-10-19,computed
-INTC,ps_ttm,8.139278,2026-10-19,computed
-INTC,ev_sales,8.504161,2026-10-19,computed
-INTC,pfcf_ttm,163.970088,2026-10-19,computed
-INTC,pfcf_5y_avg,,2026-10-19,computed
+INTC,pe_ttm,,2026-10-20,computed
+INTC,pe_5y_avg_earnings,219.22846,2026-10-20,computed
+INTC,pe_forward,45.868429,2026-10-20,computed
+INTC,ps_ttm,8.109208,2026-10-20,computed
+INTC,ev_sales,8.474091,2026-10-20,computed
+INTC,pfcf_ttm,163.364309,2026-10-20,computed
+INTC,pfcf_5y_avg,,2026-10-20,computed
 INTC,piotroski_f,6,2025-12-27,"Piotroski 2000, 9/9 tests computable"
-INTC,altman_z,3.588994,2025-12-27,Altman 1968 original weights
+INTC,altman_z,3.578402,2025-12-27,Altman 1968 original weights
 INTC,beneish_m,-2.586118,2025-12-27,Beneish 1999 8-var; 2 index(es) missing set to 1.0
-INTC,p1_pe_5y,220.041392,2025-12-27,8 Pillars input (below 22.5)
+INTC,p1_pe_5y,219.22846,2025-12-27,8 Pillars input (below 22.5)
 INTC,p1_pe_5y_pass,FAIL,2025-12-27,8 Pillars
 INTC,p2_roic_5y,0.02168,2025-12-27,8 Pillars input (above 0.09)
 INTC,p2_roic_5y_pass,FAIL,2025-12-27,8 Pillars
@@ -1863,7 +1863,7 @@ INTC,analyst_target_mean,117.37209,2026-12-31,Yahoo earningsTrend
 INTC,analyst_count,43,2026-12-31,Yahoo earningsTrend
 INTC,next_earnings_date,2026-10-29,,Yahoo calendar
 INTC,ex_dividend_date,2024-08-07,,Yahoo calendar
-INTC,institutional_pct,0.62888,2026-06-30,Yahoo Finance (13F filings via Yahoo)
+INTC,institutional_pct,0.62897,2026-06-30,Yahoo Finance (13F filings via Yahoo)
 INTC,insider_pct,0.13988,2026-06-30,Yahoo Finance (13F filings via Yahoo)
 INTC,holder_1_name,Blackrock Inc.,2026-06-30,Yahoo Finance (13F filings via Yahoo)
 INTC,holder_1_pct,0.0846,2026-06-30,Yahoo Finance (13F filings via Yahoo)
@@ -1886,13 +1886,13 @@ INTC,holder_9_pct,0.0172,2026-06-30,Yahoo Finance (13F filings via Yahoo)
 INTC,holder_10_name,Primecap Management Company,2026-06-30,Yahoo Finance (13F filings via Yahoo)
 INTC,holder_10_pct,0.0149,2026-06-30,Yahoo Finance (13F filings via Yahoo)
 INTC,short_pct_float,0.0316,2026-09-30,Yahoo (FINRA)
-INTC,px_hi52,140.940002,2026-10-19,Yahoo daily closes
-INTC,px_lo52,33.619999,2026-10-19,Yahoo daily closes
-INTC,px_ath,140.940002,2026-10-19,Yahoo daily closes
-INTC,px_ma50,102.9796,2026-10-19,Yahoo daily closes
-INTC,px_ma200,84.8324,2026-10-19,Yahoo daily closes
-INTC,px_ret30,-0.152578,2026-10-19,Yahoo daily closes
-INTC,px_cagr5,0.110592,2026-10-19,Yahoo daily closes
+INTC,px_hi52,140.940002,2026-10-20,Yahoo daily closes
+INTC,px_lo52,33.619999,2026-10-20,Yahoo daily closes
+INTC,px_ath,140.940002,2026-10-20,Yahoo daily closes
+INTC,px_ma50,102.863,2026-10-20,Yahoo daily closes
+INTC,px_ma200,85.09395,2026-10-20,Yahoo daily closes
+INTC,px_ret30,-0.155709,2026-10-20,Yahoo daily closes
+INTC,px_cagr5,0.106779,2026-10-20,Yahoo daily closes
 INTC,g_cash_debt_score,3.0,2025-12-27,workbook Thresholds ladder (1-5)
 INTC,g_cash_debt_grade,C,2025-12-27,A>=4.5 B>=3.75 C>=3 D>=2
 INTC,g_revenue_margin_score,0.5,2025-12-27,workbook Thresholds ladder (1-5)
@@ -1935,6 +1935,6 @@ INTC,vm_high_exit_pfcf,17,2025-12-27,Value Model suggestion
 INTC,vm_high_share_change,0.008702,2025-12-27,Value Model suggestion
 INTC,vm_high_rev_y10,57032000000,2025-12-27,Value Model suggestion
 INTC,vm_high_fair_value,6.543009,2025-12-27,"10y FCF x exit multiple, discounted at 9.5%, + net cash/share"
-INTC,price_vs_mid_fv,33.811803,2026-10-19,price / mid fair value - 1
+INTC,price_vs_mid_fv,33.683192,2026-10-20,price / mid fair value - 1
 INTC,loss_maker_placeholder_margins,Yes,2025-12-27,Value Model
 INTC,data_flags,,,desk_fetch
